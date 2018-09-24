@@ -1,28 +1,108 @@
-.App {
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #333;
+  font-family: 'Quattrocento Sans', Sans-Serif;
+  font-size: 20px;
+  line-height: 1.4; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ovo', Serif;
+  font-size: 42px;
   text-align: center;
-}
+  margin-bottom: 0.8em; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+h1 {
+  font-size: 3.5em; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+p {
+  font-size: 1em;
+  margin-bottom: 0.8em; }
 
-.App-title {
-  font-size: 1.5em;
-}
+.App {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 900px;
+  justify-content: center; }
 
-.App-intro {
-  font-size: large;
-}
+.card {
+  max-width: 80%; }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+.delay-1 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 233.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-2 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 350ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-3 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 466.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-4 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 583.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-5 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 700ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-6 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 816.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-7 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 933.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-8 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1050ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-9 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1166.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.delay-10 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1283.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }

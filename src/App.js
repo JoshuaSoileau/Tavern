@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="card">
+          <h1 className="delay-1">Goblinville</h1>
+          <p className="delay-2">The town is dirty and run down, covered in a low grey misty fog that covers your eyes from seeing too deeply.</p>
+          <p className="delay-3">The town is dirty and run down, covered in a low grey misty fog that covers your eyes from seeing too deeply.</p>
+          <p className="delay-4">The town is dirty and run down, covered in a low grey misty fog that covers your eyes from seeing too deeply.</p>
+        </div>
       </div>
     );
   }
