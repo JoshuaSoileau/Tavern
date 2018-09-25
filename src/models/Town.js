@@ -1,86 +1,4 @@
 const Town = (() => {
-  const name = [
-    "Slatekeep",
-    "Mistglade",
-    "Meadowslayer",
-    "Alpenward",
-    "Crestscar",
-    "Richseeker",
-    "Morningsinger",
-    "Fernshaper",
-    "Riverclaw",
-    "Proudpike",
-    "Glorysoar",
-    "Embertalon",
-    "Moltenoak",
-    "Hardshot",
-    "Skullscar",
-    "Richheart",
-    "Dustshot",
-    "Proudfeather",
-    "Clawhell",
-    "Marshcaller",
-    "Tallbane",
-    "Flatgrip",
-    "Stilloak",
-    "Flintwhirl",
-    "Shadowspell",
-    "Seawhirl",
-    "Snakesoar",
-    "Tallcrag",
-    "Grandtoe",
-    "Titansword",
-    "Seatail",
-    "Mistrock",
-    "Wheatchewer",
-    "Twilightwood",
-    "Spiderwhisk",
-    "Fisthell",
-    "Clearreaver",
-    "Bouldersun",
-    "Forehand",
-    "Barleyglory",
-    "Nobleflower",
-    "Clanguard",
-    "Lunasnarl",
-    "Serpentblossom",
-    "Grizzlycut",
-    "Hawkcloud",
-    "Mildarm",
-    "Steeltalon",
-    "Slatestriker",
-    "Sunrunner",
-    "Craghunter",
-    "Summercut",
-    "Dustshout",
-    "Titanmoon",
-    "Mountainwound",
-    "Twosky",
-    "Threeflare",
-    "Rumblestride",
-    "Shadowbranch",
-    "Stoneflaw",
-    "Stagbrace",
-    "Grandstrider",
-    "Mossglade",
-    "Snowspear",
-    "Winterbrace",
-    "Hardsword",
-    "Strongwound",
-    "Dirgereaper",
-    "Twilightmantle",
-    "Pyreblade",
-    "Dragonrunner",
-    "Simpletrap",
-    "Mountainpelt",
-    "Dewbender",
-    "Pridehammer",
-    "Simpleflare",
-    "Windsplitter",
-    "Lonespark",
-    "Mirthshard",
-    "Eaglemore",
-  ];
 
   const prefix = [
     'Green',
@@ -240,11 +158,72 @@ const Town = (() => {
     return arr[ index ];
   };
 
-  return {
+  const name = (() => {
+    return rand(prefix) + rand(suffix);
+  })();
 
-    generate() {
-      return rand(prefix) + rand(suffix);
+  const population = (() => {
+    return Math.floor(Math.random() * 250) * 10;
+  })();
+
+  const populationCategory = (() => {
+    const pop = population;
+
+    switch (true) {
+      case pop <= 100:                    return 1;
+      case pop > 100 && pop <= 500:       return 2;
+      case pop > 500 && pop <= 800:       return 3;
+      case pop > 800 && pop <= 1200:      return 4;
+      case pop > 1200 && pop <= 1600:     return 5;
+      case pop > 1600 && pop <= 1900:     return 6;
+      case pop > 1900 && pop <= 2200:     return 7;
+      case pop > 2200 && pop <= 2500:     return 8;
     }
+  })();
+
+  const sizeDescriptor = () => {
+    switch (populationCategory) {
+      case 1:   return 'triflingly small outpost';
+      case 2:   return 'tiny camp';
+      case 3:   return 'homely village';
+      case 4:   return 'medium-sized settlement';
+      case 5:   return 'sizable village';
+      case 6:   return 'substantial settlement';
+      case 7:   return 'extensive, vast city';
+      case 8:   return 'massive, sprawling city';
+    }
+  };
+
+  const approach = () => {
+      const actions = [
+        'Long wearied, and ready for an extensive rest, you approach',
+        'After a weary voyage, you finally arrive at',
+        'As you make your way out of the treeline of the forest, you see',
+        'As the sun descends downward, it falls on',
+        'Your back is tired and your legs are jelly. Worn and ready for a rest, you finally arrive at',
+        'Drenched in sweat from your journey, you finally',
+        'You approach a steep valley, and as you look inside for the first time, you see',
+      ];
+
+      const num = Math.floor(Math.random() * actions.length);
+      return actions[num];
+  };
+
+  const description = (() => {
+    return approach() + ' the ' + sizeDescriptor() + ' of ' + name +', with its population of ' + population + '.';
+  })();
+
+  const generate = () => {
+    return {
+      name,
+      population,
+      populationCategory,
+      description,
+    };
+  };
+
+  return {
+    generate
   };
 })();
 
