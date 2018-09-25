@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Town from './components/cards/Town';
+import TownCard from './components/cards/TownCard';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Town />
+        <TownCard />
       </div>
     );
   }

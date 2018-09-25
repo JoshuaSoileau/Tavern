@@ -1,4 +1,4 @@
-const townModel = (() => {
+const Town = (() => {
   const name = [
     "Slatekeep",
     "Mistglade",
@@ -248,4 +248,4 @@ const townModel = (() => {
   };
 })();
 
-export default townModel;
+export default Town;
