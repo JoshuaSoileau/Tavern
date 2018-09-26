@@ -195,18 +195,18 @@ const Town = (() => {
   };
 
   const approach = () => {
-      const actions = [
-        'Long wearied, and ready for an extensive rest, you approach',
-        'After a weary voyage, you finally arrive at',
-        'As you make your way out of the treeline of the forest, you see',
-        'As the sun descends downward, it falls on',
-        'Your back is tired and your legs are jelly. Worn and ready for a rest, you finally arrive at',
-        'Drenched in sweat from your journey, you finally',
-        'You approach a steep valley, and as you look inside for the first time, you see',
-      ];
+    const actions = [
+      'Long wearied, and ready for an extensive rest, you approach',
+      'After a weary voyage, you finally arrive at',
+      'As you make your way out of the treeline of the forest, you see',
+      'As the sun descends downward, it falls on',
+      'Your back is tired and your legs are jelly. Worn and ready for a rest, you finally arrive at',
+      'Drenched in sweat from your journey, you finally arrive at',
+      'You approach a steep valley, and as you look inside for the first time, you see',
+    ];
 
-      const num = Math.floor(Math.random() * actions.length);
-      return actions[num];
+    const num = Math.floor(Math.random() * actions.length);
+    return actions[num];
   };
 
   const description = (() => {
