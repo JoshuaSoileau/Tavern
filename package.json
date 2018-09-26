@@ -2,7 +2,7 @@
   "name": "tavern",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://joshuasoileau.github.io/gettavern",
+  "homepage": "http://get-tavern.com",
   "dependencies": {
     "node-sass-chokidar": "^1.3.3",
     "react": "^16.5.2",
