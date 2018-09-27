@@ -1,3 +1,35 @@
+/**
+ * Colors
+ */
+
+$c-text: #333;
+$c-background: #FFF;
+
+/**
+ * Typography
+ */
+
+$font-family-special: 'Ovo', Serif;
+$font-family-base: "Quattrocento Sans", Sans-Serif;
+$font-size-base: 20px;
+$font-size-base-mobile: 16px;
+$line-height-base: 1.4;
+$header-step-size: 0.5;
+$header-step-size-mobile: 0.3;
+
+/**
+ * Breakpoints
+ */
+
+$small: 500px;
+$sml: $small;
+$mdm: 768px;
+$lg: 1024px;
+
+/**
+ * Animations
+ */
+
 $transition-duration: 350ms;
 $fade-delay: $transition-duration / 3;
 

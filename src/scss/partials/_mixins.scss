@@ -1,0 +1,13 @@
+@mixin bp($size) {
+  @media (max-width: #{$size}) {
+    @content;
+  }
+}
+
+@mixin font-size-header($count) {
+  font-size: 1em + $header-step-size * $count;
+  
+  @include bp($mdm) {
+    font-size: 1em + $header-step-size-mobile * $count;
+  }
+}

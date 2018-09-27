@@ -1,4 +1,14 @@
 .card {
   max-width: $card-max-width;
   width: $card-width;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-weight: 100;
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
