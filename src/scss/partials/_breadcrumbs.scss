@@ -1,0 +1,21 @@
+.breadcrumbs {
+  font-size: 0.8em;
+  left: 50%;
+  list-style: none;
+  max-width: $card-max-width;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-50%);
+  width: $card-width;
+
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+
+  .breadcrumb {
+    float: left;
+    margin-right: 15px;
+  }
+}
