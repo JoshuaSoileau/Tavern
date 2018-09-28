@@ -11,6 +11,6 @@ class TavernCard extends Component {
       </div>
     );
   }
-}
+};
 
 export default TavernCard;
