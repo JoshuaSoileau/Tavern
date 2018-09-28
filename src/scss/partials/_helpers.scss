@@ -10,3 +10,11 @@
 .text-center {
   text-align: center;
 }
+
+.page-enter-active {
+  display: none;
+}
+
+.page-exit-active {
+  animation: fade-out $transition-duration / 2 ease forwards;
+}

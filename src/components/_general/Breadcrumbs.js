@@ -13,6 +13,9 @@ class Breadcrumbs extends Component {
           <NavLink to='/tavern' activeClassName='active'>Tavern</NavLink>
         </li>
         <li className="breadcrumb">
+          <NavLink to='/alchemist' activeClassName='active'>Alchemist</NavLink>
+        </li>
+        <li className="breadcrumb">
           <NavLink to='/lost' activeClassName='active'>Lost</NavLink>
         </li>
       </ul>

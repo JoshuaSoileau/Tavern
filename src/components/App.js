@@ -2,7 +2,8 @@
  * Dependencies
  */
 import React, { Component } from 'react';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, withRouter } from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 /**
  * Stylesheet
@@ -16,18 +17,36 @@ import Breadcrumbs from './_general/Breadcrumbs';
 import NoMatch from './_general/NoMatch';
 import TownCard from './cards/TownCard';
 import TavernCard from "./cards/TavernCard";
+import AlchemistCard from "./cards/AlchemistCard";
 
-class App extends Component {
-  render() {
-    return <div className="App">
+const App = () => (
+      <main className="App">
         <Breadcrumbs />
-        <Switch>
-          <Route path="/tavern" component={TavernCard} />
-          <Route path="/lost" component={NoMatch} />
-          <Route component={TownCard} />
-        </Switch>
-      </div>;
-  }
-}
+        <Route render={({ location }) => {
+          const { pathname } = location;
+          return (
+            <TransitionGroup>
+              <CSSTransition key={pathname} classNames="page" timeout={{
+                  enter: 175,
+                  exit: 350,
+                }}
+              >
+                <Route location={location} render={() => (
+                    <Switch>
+                      <Route exact path="/" component={TownCard} />
+                      <Route path="/alchemist" component={AlchemistCard} />
+                      <Route path="/tavern" component={TavernCard} />
+                      <Route component={NoMatch} />
+                    </Switch>
+                  )}
+                />
+              </CSSTransition>
+            </TransitionGroup>
+          );
+        }}
+        />
+      </main>
+);
 
-export default App;
+// export default withRouter(App);
+export default withRouter(App);

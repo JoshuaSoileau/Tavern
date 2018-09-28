@@ -94,6 +94,12 @@ p {
     opacity: 1;
     transform: translateY(0); } }
 
+@keyframes fade-out {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
 .delay--1 {
   animation: fade-in 350ms ease forwards;
   animation-delay: 233.33333ms;
@@ -217,12 +223,20 @@ p {
 .text-center {
   text-align: center; }
 
+.page-enter-active {
+  display: none; }
+
+.page-exit-active {
+  animation: fade-out 175ms ease forwards; }
+
 .App {
   align-items: center;
   display: flex;
   justify-content: center;
   min-height: 100vh;
   position: relative; }
+  .App > div {
+    width: 100%; }
 
 .breadcrumbs {
   background: #FFF;
@@ -243,6 +257,7 @@ p {
     margin-right: 15px; }
 
 .card {
+  margin: 0 auto;
   max-width: 900px;
   width: 80%; }
   .card__title {
