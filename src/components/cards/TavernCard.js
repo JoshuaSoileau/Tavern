@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route } from 'react-router-dom';
-import NpcCard from './NpcCard';
+import { Link } from 'react-router-dom';
 
 class TavernCard extends Component {
 
@@ -11,9 +10,6 @@ class TavernCard extends Component {
         <h1 className="card__title  delay--2">{this.props.business.name}</h1>
         <p className="delay--3">This is the tavern.</p>
         <p className="delay--4">Owner: <Link to={`${this.props.match.url}/owner`}>{this.props.owner.name}</Link>.</p>
-        <Route path={`${this.props.match.path}/owner`} render={(props) => (
-          <NpcCard {...props} {...this.props.owner} />
-        )}/>
       </div>
     );
   }

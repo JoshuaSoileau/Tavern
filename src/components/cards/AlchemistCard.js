@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-
-import Alchemist from '../../models/Alchemist';
-
-const alchemist = Alchemist.generate();
+import { Link } from 'react-router-dom';
 
 class TavernCard extends Component {
 
@@ -10,10 +7,10 @@ class TavernCard extends Component {
     return (
       <div className="card">
         <h6 className="card__subtitle  delay--1">The alchemist</h6>
-        <h1 className="card__title  delay--2">{alchemist.name}</h1>
-        <p className="delay--3">{alchemist.entrance}</p>
-        <p className="delay--4">{alchemist.cleanliness}</p>
-        <p className="delay--5">The owner, {this.props.owner.name}, is behind the counter brewing in a bubbling cauldron.</p>
+        <h1 className="card__title  delay--2">{this.props.business.name}</h1>
+        <p className="delay--3">{this.props.business.entrance}</p>
+        <p className="delay--4">{this.props.business.cleanliness}</p>
+        <p className="delay--5">The owner, <Link to={`${this.props.match.url}/owner`}>{this.props.owner.name}</Link>, is behind the counter brewing in a bubbling cauldron.</p>
       </div>
     );
   }

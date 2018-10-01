@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
-import { Switch, BrowserRouter, Link, Route } from "react-router-dom";
-
-import AlchemistCard from '../components/cards/AlchemistCard';
-import TavernCard from '../components/cards/TavernCard';
+import { Switch, Route } from "react-router-dom";
 
 import Models from '../models';
-import Town from '../models/Town';
+import NoMatch from '../components/_general/NoMatch';
 import TownCard from '../components/cards/TownCard';
+
+/**
+ * Routes
+ */
+import TavernRoute from './TavernRoute';
+import AlchemistRoute from './AlchemistRoute';
+
+
 
 window.Models = Models;
 
 const data = {
-  town: Town.generate(),
+  town: Models.Town.generate(),
   alchemist: {
     business: Models.Alchemist.generate(),
     owner: Models.NPC.generate()
@@ -22,31 +27,23 @@ const data = {
   }
 };
 
-
 class TownRoute extends Component {
   render() {
     return (
-      <Switch>
-        <Route exact path={`/`} render={(props) => (
-          <TownCard
-            {...props}
-            {...data}
-          />
+      <Switch location={this.props.location}>
+        <Route exact path="/" render={(props) => (
+          <TownCard {...props} {...data} />
         )} />
-        <Route path={`/tavern`} render={(props) => (
-          <TavernCard
-            {...props}
-            business={data.tavern.business}
-            owner={data.tavern.owner}
-          />
+
+        <Route path="/alchemist" render={(props) => (
+          <AlchemistRoute {...props} {...data.alchemist} />
         )} />
-        <Route path={`/alchemist`} render={(props) => (
-          <AlchemistCard
-            {...props}
-            business={data.alchemist.business}
-            owner={data.alchemist.owner}
-          />
+
+        <Route path="/tavern" render={(props) => (
+          <TavernRoute {...props} {...data.tavern} />
         )} />
+
+        <Route component={NoMatch} />
       </Switch>
     );
   }
