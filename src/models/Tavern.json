@@ -1,0 +1,53 @@
+{
+  "adjective": [
+    "Bubbling",
+    "Sprawling",
+    "Spicy",
+    "Foggy",
+    "Fizzing",
+    "Fizzy",
+    "Popping",
+    "Melting",
+    "Misty",
+    "Fuzzy",
+    "Chemical",
+    "Molding",
+    "Opaque",
+    "Clear",
+    "Disiduous",
+    "Metallic",
+    "Silver",
+    "Golden",
+    "Stinky",
+    "Expanding",
+    "Soggy"
+  ],
+  "noun": [
+    "Potion",
+    "Vial",
+    "Bottle",
+    "Fumes",
+    "Mortar & Pestle",
+    "Alchemist",
+    "Chemist",
+    "Brewer",
+    "Brewery",
+    "Lotion",
+    "Laboratory",
+    "Juice Bar"
+  ],
+  "cleanlinessDescriptor": [
+    "reasonably tidy. There are stacks of paper here and there, loosely organized in a semi-thought out fashion.",
+    "disastrously messy. There are papers strewn about, covering the floor. Potions & vials are splayed about in rambunctious fashion. It looks as though a small tornado has had it's way with the room.",
+    "rather messy. There are scattered papers & vials strewn about the room. You can see a semi-thought out organization to the sections of the room, with one half being a a large wooden counter, with poorly made displays filled with all manner of things that may or may not be for sale.",
+    "pristinely tidy. The ground is emaculate, clearly having been swept recently. The counter is almost empty, save for 3 perfectly thought out display cases showcasing the most potent potions available."
+  ],
+  "entranceDescription": [
+    "You push an oddly heavy brass door open and enter",
+    "The door creaks and falls back with a light thud as you enter",
+    "You push through an oddly light door and walk in to",
+    "You walk through the doorway and enter",
+    "A light creak sounds from the rusty door as you enter",
+    "A heavy wooden door swings open as you enter"
+  ]
+}

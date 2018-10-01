@@ -19,32 +19,59 @@ import TownCard from './cards/TownCard';
 import TavernCard from "./cards/TavernCard";
 import AlchemistCard from "./cards/AlchemistCard";
 
-const App = () => (
+import Models from '../models';
+import Town from '../models/Town';
+
+window.Models = Models;
+
+const data = {
+  town: Town.generate(),
+  alchemist: {
+    business: Models.Alchemist.generate(),
+    owner: Models.NPC.generate()
+  },
+  tavern: {
+    business: Models.Tavern.generate(),
+    owner: Models.NPC.generate()
+  }
+};
+
+console.log({data});
+
+const App = ({ location }) => (
       <main className="App">
         <Breadcrumbs />
-        <Route render={({ location }) => {
-          const { pathname } = location;
-          return (
-            <TransitionGroup>
-              <CSSTransition key={pathname} classNames="page" timeout={{
-                  enter: 175,
-                  exit: 350,
-                }}
-              >
-                <Route location={location} render={() => (
-                    <Switch>
-                      <Route exact path="/" component={TownCard} />
-                      <Route path="/alchemist" component={AlchemistCard} />
-                      <Route path="/tavern" component={TavernCard} />
-                      <Route component={NoMatch} />
-                    </Switch>
-                  )}
-                />
-              </CSSTransition>
-            </TransitionGroup>
-          );
-        }}
-        />
+        <TransitionGroup>
+          <CSSTransition key={location.key} classNames="page" timeout={
+            {
+              enter: 350,
+              exit: 175,
+            }
+          }>
+            <Switch location={location}>
+              <Route exact path="/" render={(props) => (
+                <TownCard
+                  {...props}
+                  alchemist={data.alchemist}
+                  tavern={data.tavern}
+                  town={data.town} />
+              )} />
+              <Route path="/alchemist" render={(props) => (
+                <AlchemistCard
+                  {...props}
+                  business={data.alchemist.business}
+                  owner={data.alchemist.owner} />
+              )} />
+              <Route path="/tavern" render={(props) => (
+                <TavernCard
+                  {...props}
+                  business={data.tavern.business}
+                  owner={data.tavern.owner} />
+              )} />
+              <Route component={NoMatch} />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
       </main>
 );
 

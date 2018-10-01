@@ -23,20 +23,22 @@ const NPC = (() => {
         hishers: 'his',
         himher: 'him',
         manwoman: 'man',
+        mrmrs: 'Mr.',
       },
       'female': {
         heshe: 'she',
         hishers: 'hers',
         himher: 'her',
         manwoman: 'woman',
+        mrmrs: 'Mrs.',
       },
     }[gender];
 
     return {
-      ...pronouns,
       name,
       firstname,
-      lastname
+      lastname,
+      ...pronouns,
     };
   };
 
