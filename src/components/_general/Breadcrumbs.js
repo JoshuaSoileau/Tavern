@@ -1,26 +1,23 @@
-import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
+import React from "react";
+import { Breadcrumbs } from 'react-breadcrumbs-dynamic';
+
+import BreadCrumb from './BreadCrumb';
 
 
-class Breadcrumbs extends Component {
-  render() {
-    return (
-      <ul className="breadcrumbs">
-        <li className="breadcrumb">
-          <NavLink to='/' activeClassName='active'>Home</NavLink>
-        </li>
-        <li className="breadcrumb">
-          <NavLink to='/tavern' activeClassName='active'>Tavern</NavLink>
-        </li>
-        <li className="breadcrumb">
-          <NavLink to='/alchemist' activeClassName='active'>Alchemist</NavLink>
-        </li>
-        <li className="breadcrumb">
-          <NavLink to='/lost' activeClassName='active'>Lost</NavLink>
-        </li>
-      </ul>
-    );
-  }
-}
+/**
+ * Local components
+ */
 
-export default Breadcrumbs;
+const BreadCrumbs = props => (
+  <ul className="breadcrumbs">
+    <Breadcrumbs
+      container="ul"
+      item={BreadCrumb}
+      duplicateProps={{...this.props}}
+      finalItem={BreadCrumb}
+      finalProps={{ isFinal: true }}
+    />
+  </ul>
+);
+
+export default BreadCrumbs;

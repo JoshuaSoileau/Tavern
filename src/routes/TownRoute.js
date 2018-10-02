@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from "react-router-dom";
+import { BreadcrumbsItem } from 'react-breadcrumbs-dynamic';
 
 import Models from '../models';
 import NoMatch from '../components/_general/NoMatch';
@@ -30,21 +31,25 @@ const data = {
 class TownRoute extends Component {
   render() {
     return (
-      <Switch location={this.props.location}>
-        <Route exact path="/" render={(props) => (
-          <TownCard {...props} {...data} />
-        )} />
+      <React.Fragment>
+        <BreadcrumbsItem to='/'><span className="title">Town</span></BreadcrumbsItem>
 
-        <Route path="/alchemist" render={(props) => (
-          <AlchemistRoute {...props} {...data.alchemist} />
-        )} />
+        <Switch location={this.props.location}>
+          <Route exact path="/" render={(props) => (
+            <TownCard {...props} {...data} />
+          )} />
 
-        <Route path="/tavern" render={(props) => (
-          <TavernRoute {...props} {...data.tavern} />
-        )} />
+          <Route path="/alchemist" render={(props) => (
+            <AlchemistRoute {...props} {...data.alchemist} />
+          )} />
 
-        <Route component={NoMatch} />
-      </Switch>
+          <Route path="/tavern" render={(props) => (
+            <TavernRoute {...props} {...data.tavern} />
+          )} />
+
+          <Route component={NoMatch} />
+        </Switch>
+      </React.Fragment>
     );
   }
 }

@@ -8,12 +8,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Route } from "react-router-dom";
+import { ThroughProvider } from 'react-through';
 
 
 ReactDOM.render((
-  <BrowserRouter>
-    <Route component={App}/>
-  </BrowserRouter>
+  <ThroughProvider>
+    <BrowserRouter>
+      <Route component={App}/>
+    </BrowserRouter>
+  </ThroughProvider>
 ), document.getElementById('root'));
 
 registerServiceWorker();
