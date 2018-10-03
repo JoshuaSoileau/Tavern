@@ -10,7 +10,9 @@ class TavernCard extends Component {
         <p className="delay--3">{`{ entrance_description }`}</p>
         <p className="delay--4">This is the tavern.</p>
         <p className="delay--5">{`{ tavern_description }`}</p>
-        <p className="delay--6">Owner: <Link to={`${this.props.match.url}/owner`}>{this.props.owner.name}</Link>.</p>
+        <p className="delay--6">{`{ owner_description_with_link }`}</p>
+        <p className="delay--7">Owner: <Link to={`${this.props.match.url}/owner`}>{this.props.owner.name}</Link>.</p>
+        <p className="delay--8">{`{ owner_action_description }`}</p>
       </div>
     );
   }
