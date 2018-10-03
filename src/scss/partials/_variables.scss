@@ -1,14 +1,13 @@
 /**
  * Colors
  */
-
 $c-text: #333;
 $c-background: #FFF;
+$c-gray-border: #efefef;
 
 /**
  * Typography
  */
-
 $font-family-special: 'Ovo', Serif;
 $font-family-base: "Quattrocento Sans", Sans-Serif;
 $font-size-base: 20px;
@@ -20,7 +19,6 @@ $header-step-size-mobile: 0.3;
 /**
  * Breakpoints
  */
-
 $small: 500px;
 $sml: $small;
 $mdm: 768px;
@@ -29,13 +27,11 @@ $lg: 1024px;
 /**
  * Animations
  */
-
 $transition-duration: 350ms;
 $fade-delay: $transition-duration / 3;
 
 /**
  * Layout
  */
-
 $card-width: 80%;
 $card-max-width: 900px;

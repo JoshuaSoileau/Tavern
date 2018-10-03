@@ -230,13 +230,25 @@ p {
   animation: fade-out 175ms ease forwards; }
 
 .App {
-  align-items: center;
+  align-items: top;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   min-height: 100vh;
   position: relative; }
   .App > div:not([class]) {
+    align-items: center;
+    display: flex;
+    min-height: calc(100vh - 50px);
     width: 100%; }
+
+.footer {
+  border-top: 1px solid #efefef;
+  display: block;
+  font-size: 14px;
+  padding: 14px;
+  text-align: center;
+  width: 100%; }
 
 .breadcrumbs {
   background: #FFF;
@@ -266,9 +278,14 @@ p {
       margin: 0 8px; }
 
 .card {
-  margin: 100px auto;
+  flex-shrink: 0;
+  margin: 0 auto;
   max-width: 900px;
+  padding: 100px 0;
   width: 80%; }
+  @media (max-width: 768px) {
+    .card {
+      padding: 100px 0 50px; } }
   .card__title {
     text-align: center; }
   .card__subtitle {

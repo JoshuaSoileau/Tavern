@@ -12,8 +12,6 @@ import TownCard from '../components/cards/TownCard';
 import TavernRoute from './TavernRoute';
 import AlchemistRoute from './AlchemistRoute';
 
-
-
 window.Models = Models;
 
 const data = {

@@ -14,6 +14,7 @@ import "./scss/App.css";
  * Local components
  */
 import BreadCrumbs from './components/_general/BreadCrumbs';
+import Footer from './components/_general/Footer';
 import TownRoute from "./routes/TownRoute";
 import Models from "./models";
 import Town from "./models/Town/Town";
@@ -49,6 +50,7 @@ const App = props => (
         <TownRoute {...props} />
       </CSSTransition>
     </TransitionGroup>
+    <Footer />
   </main>
 );
 

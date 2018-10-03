@@ -1,7 +1,13 @@
 .card {
-  margin: 100px auto;
+  flex-shrink: 0;
+  margin: 0 auto;
   max-width: $card-max-width;
+  padding: 100px 0;
   width: $card-width;
+
+  @media (max-width: 768px) {
+    padding: 100px 0 50px;
+  }
 
   &__title {
     text-align: center;
