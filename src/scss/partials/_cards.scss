@@ -18,4 +18,48 @@
     margin-bottom: 0;
     text-align: center;
   }
+
+  &__locations {
+    margin: $base-margin*3 0;
+
+    &-title {
+      font-size: 1.2em;
+      margin-bottom: $base-margin*2;
+    }
+  }
+
+  &__location {
+
+    &-link {
+      margin-bottom: $base-margin;
+      position: relative;
+
+      @media (max-width: 768px) {
+        padding-left: 62px;
+      }
+    }
+
+    &-icon {
+      display: inline-block;
+      margin-right: $base-margin*2;
+      width: $card-location-icon-width;
+      vertical-align: middle;
+
+      ~ .card__location-description {
+        width: calc(100% - #{$card-location-icon-width + $base-margin*2});
+      }
+
+      &--cauldron {
+        width: $card-location-icon-width * .7;
+        margin-left: $card-location-icon-width - $card-location-icon-width * .7;
+      }
+    }
+
+    &-description {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  }
+
 }

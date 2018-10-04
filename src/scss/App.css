@@ -94,13 +94,19 @@ p {
 /**
  * Animations
  */
-@keyframes fade-in {
+@keyframes fade-in-slide-up {
   0% {
     opacity: 0;
     transform: translateY(20px); }
   100% {
     opacity: 1;
     transform: translateY(0); } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 @keyframes fade-out {
   0% {
@@ -109,120 +115,240 @@ p {
     opacity: 0; } }
 
 .delay--1 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 233.33333ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--2 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 350ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--3 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 466.66667ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--4 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 583.33333ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--5 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 700ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--6 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 816.66667ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--7 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 933.33333ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--8 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1050ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--9 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1166.66667ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--10 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1283.33333ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--11 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1400ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--12 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1516.66667ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--13 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1633.33333ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--14 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1750ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--15 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1866.66667ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--16 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 1983.33333ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--17 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 2100ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--18 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 2216.66667ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--19 {
-  animation: fade-in 350ms ease forwards;
+  animation: fade-in-slide-up 350ms ease forwards;
   animation-delay: 2333.33333ms;
   opacity: 0;
   transform: translateY(20px); }
 
 .delay--20 {
+  animation: fade-in-slide-up 350ms ease forwards;
+  animation-delay: 2450ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--1 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 233.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--2 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 350ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--3 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 466.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--4 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 583.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--5 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 700ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--6 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 816.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--7 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 933.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--8 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1050ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--9 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1166.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--10 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1283.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--11 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1400ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--12 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1516.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--13 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1633.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--14 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1750ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--15 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1866.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--16 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 1983.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--17 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 2100ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--18 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 2216.66667ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--19 {
+  animation: fade-in 350ms ease forwards;
+  animation-delay: 2333.33333ms;
+  opacity: 0;
+  transform: translateY(20px); }
+
+.fade--20 {
   animation: fade-in 350ms ease forwards;
   animation-delay: 2450ms;
   opacity: 0;
@@ -300,3 +426,27 @@ p {
     font-weight: 100;
     margin-bottom: 0;
     text-align: center; }
+  .card__locations {
+    margin: 36px 0; }
+    .card__locations-title {
+      font-size: 1.2em;
+      margin-bottom: 24px; }
+  .card__location-link {
+    margin-bottom: 12px;
+    position: relative; }
+    @media (max-width: 768px) {
+      .card__location-link {
+        padding-left: 62px; } }
+  .card__location-icon {
+    display: inline-block;
+    margin-right: 24px;
+    width: 60px;
+    vertical-align: middle; }
+    .card__location-icon ~ .card__location-description {
+      width: calc(100% - 84px); }
+    .card__location-icon--cauldron {
+      width: 42px;
+      margin-left: 18px; }
+  .card__location-description {
+    display: inline-block;
+    vertical-align: middle; }

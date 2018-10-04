@@ -1,4 +1,5 @@
 import React from 'react';
+
 export default ({color = '#000', className = ''}) => (
   <svg className={className} width="60px" height="51px" viewBox="0 0 60 51" version="1.1">
     <defs></defs>

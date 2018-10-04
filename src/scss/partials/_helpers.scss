@@ -1,5 +1,14 @@
 @for $i from 1 through 20 {
   .delay--#{$i} {
+    animation: fade-in-slide-up $transition-duration ease forwards;
+    animation-delay: $fade-delay + $fade-delay * $i;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+@for $i from 1 through 20 {
+  .fade--#{$i} {
     animation: fade-in $transition-duration ease forwards;
     animation-delay: $fade-delay + $fade-delay * $i;
     opacity: 0;
