@@ -80,6 +80,14 @@ p {
   margin-bottom: 0.8em;
   transition: font-size 350ms ease, color 350ms ease; }
 
+.icon {
+  height: auto; }
+
+.icon--card {
+  display: block;
+  margin: 40px auto;
+  width: 140px; }
+
 /**
  * Transitions
  */

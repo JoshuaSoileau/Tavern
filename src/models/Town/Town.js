@@ -1,4 +1,5 @@
 import data from './Town.json';
+import Road from '../Road/Road';
 
 const Town = (() => {
 
@@ -48,6 +49,9 @@ const Town = (() => {
       population,
       populationCategory,
       description,
+      primaryRoad: Road.generate(),
+      secondaryRoad: Road.generate(),
+      tertiaryRoad: Road.generate()
     };
   };
 

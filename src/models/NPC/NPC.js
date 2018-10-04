@@ -38,6 +38,8 @@ const NPC = (() => {
       name,
       firstname,
       lastname,
+      race: data.race.random(),
+      class: data.class.random(),
       ...pronouns,
     };
   };
