@@ -17,7 +17,7 @@ import "./scss/App.css";
 /**
  * Local components
  */
-import BreadCrumbs from './components/_general/BreadCrumbs';
+import Header from './components/layout/Header';
 import Footer from './components/_general/Footer';
 import TownRoute from "./routes/TownRoute";
 import Models from "./models";
@@ -33,7 +33,7 @@ const mapStateToProps = state => ({
 
 const App = props => (
   <main className="App">
-    <BreadCrumbs />
+    <Header />
     <TransitionGroup>
       <CSSTransition
         key={props.location.key}

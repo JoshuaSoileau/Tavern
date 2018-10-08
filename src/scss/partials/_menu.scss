@@ -1,0 +1,93 @@
+.menu {
+  list-style: none;
+
+  &__control {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: $base-margin*2 $base-margin*4;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    &:hover .ellipse {
+      margin-left: 0;
+      width: $menu-dot-width*5;
+    }
+
+    .ellipse {
+      display: block;
+      background: $c-text;
+      border-radius: $menu-dot-width;
+      height: $menu-dot-width;
+      margin: 0 0 $menu-dot-width/2 $menu-dot-width*4;
+      transition: all $transition-duration ease;
+      width: $menu-dot-width;
+    }
+
+    .ellipse ~ .ellipse {               transition-delay: $transition-duration / 4; }
+    .ellipse ~ .ellipse ~ .ellipse {    transition-delay: $transition-duration / 2; }
+  }
+
+  &__item {
+    font-size: 1em;
+    margin-bottom: $base-margin;
+
+    &-link {
+      color: $c-text;
+      padding-left: 40px;
+      position: relative;
+      text-decoration: none;
+    }
+
+    &-icon {
+      display: inline-block;
+      margin-right: $base-margin;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 28px;
+    }
+  }
+}
+
+.navigation-menu {
+  bottom: 0;
+  box-shadow: -50vw 0 0 rgba(0, 0, 0, 0.2);
+  background: $c-background - #0a0a0a;
+  opacity: 0;
+  padding: $base-margin*4 $base-margin*3;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  // transform: translateX(-50px);
+  transition: all $transition-duration ease;
+  width: calc(70% - 20px);
+  z-index: 10;
+
+  .menu__item {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all $transition-duration ease;
+
+    &:nth-child(1) {    transition-delay: $fade-delay + $fade-delay * 2; }
+    &:nth-child(2) {    transition-delay: $fade-delay + $fade-delay * 3; }
+    &:nth-child(3) {    transition-delay: $fade-delay + $fade-delay * 4; }
+  }
+
+  &--open {
+    opacity: 1;
+    pointer-events: initial;
+    width: 70%;
+
+    .menu__item {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+
+  }
+}
