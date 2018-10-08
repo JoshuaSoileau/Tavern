@@ -420,7 +420,8 @@ p {
     padding: 24px 48px;
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 0;
+    z-index: 20; }
     .menu__control:hover .ellipse {
       margin-left: 0;
       width: 20px; }
@@ -432,10 +433,25 @@ p {
       margin: 0 0 2px 16px;
       transition: all 350ms ease;
       width: 4px; }
-    .menu__control .ellipse ~ .ellipse {
-      transition-delay: 87.5ms; }
-    .menu__control .ellipse ~ .ellipse ~ .ellipse {
-      transition-delay: 175ms; }
+      .menu__control .ellipse:nth-child(1) {
+        transition-delay: 0; }
+      .menu__control .ellipse:nth-child(2) {
+        transition-delay: 87.5ms; }
+      .menu__control .ellipse:nth-child(3) {
+        transition-delay: 175ms; }
+    .menu__control--open .ellipse {
+      margin-left: 0;
+      transition-delay: 0; }
+      .menu__control--open .ellipse:nth-child(1), .menu__control--open .ellipse:nth-child(3) {
+        transform: rotate(45deg) translateY(8px);
+        transition-delay: 0;
+        width: 32px; }
+      .menu__control--open .ellipse:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px); }
+      .menu__control--open .ellipse:nth-child(2) {
+        transition-delay: 0;
+        margin-left: 8px;
+        width: 4px; }
   .menu__item {
     font-size: 1em;
     margin-bottom: 12px; }
@@ -456,7 +472,7 @@ p {
 .navigation-menu {
   bottom: 0;
   box-shadow: -50vw 0 0 rgba(0, 0, 0, 0.2);
-  background: whitesmoke;
+  background: white;
   opacity: 0;
   padding: 48px 36px;
   pointer-events: none;

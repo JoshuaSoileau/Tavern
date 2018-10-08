@@ -22,7 +22,7 @@ class Menu extends Component {
   handleMenuIconClick() {
     console.log("menu clicked");
     this.setState({
-      open: true
+      open: !this.state.open
     });
   }
 
@@ -36,7 +36,7 @@ class Menu extends Component {
   render() {
     return (
       <React.Fragment>
-        <button className="menu__control" aria-controls="navigation-menu" onClick={this.handleMenuIconClick}>
+        <button className={this.state.open ? 'menu__control menu__control--open' : 'menu__control'} aria-controls="navigation-menu" onClick={this.handleMenuIconClick}>
           <span className="ellipse"></span>
           <span className="ellipse"></span>
           <span className="ellipse"></span>
