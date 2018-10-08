@@ -5,9 +5,10 @@
 .icon--card {
   display: block;
   margin: 40px auto;
-  width: 140px;
+  width: 200px;
 
   @include bp($mdm) {
     margin-top: 0;
+    width: 140px;
   }
 }

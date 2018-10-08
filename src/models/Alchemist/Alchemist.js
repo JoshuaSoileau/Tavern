@@ -2,23 +2,25 @@ import data from './Alchemist.json';
 
 const Alchemist = (() => {
 
-  const name = () => {
+  const getName = () => {
     return 'The ' + data.adjective.random() + ' ' + data.noun.random();
   };
 
-  const cleanliness = () => {
+  const getCleanliness = () => {
     return 'The room is ' + data.cleanlinessDescriptor.random();
   };
 
-  const entrance = () => {
+  const getEntrance = (name) => {
     return data.entranceDescription.random() + ' ' + name + '.';
   };
 
   const generate = () => {
+    const name = getName();
+
     return {
-      name: name(),
-      cleanliness: cleanliness(),
-      entrance: entrance(),
+      name,
+      cleanliness: getCleanliness(),
+      entrance: getEntrance(name),
     };
   };
 
