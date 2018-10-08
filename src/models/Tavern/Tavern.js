@@ -2,23 +2,23 @@ import data from './Tavern.json';
 
 const Tavern = (() => {
 
-  const name = (() => {
+  const name = () => {
     return 'The ' + data.adjective.random() + ' ' + data.noun.random();
-  })();
+  };
 
-  const cleanliness = (() => {
+  const cleanliness = () => {
     return 'The room is ' + data.cleanlinessDescriptor.random();
-  })();
+  };
 
-  const entrance = (() => {
+  const entrance = () => {
     return data.entranceDescription.random() + ' ' + name + '.';
-  })();
+  };
 
   const generate = () => {
     return {
-      name,
-      cleanliness,
-      entrance,
+      name: name(),
+      cleanliness: cleanliness(),
+      entrance: entrance(),
     };
   };
 

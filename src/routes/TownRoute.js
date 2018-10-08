@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Switch, Route } from "react-router-dom";
 import { BreadcrumbsItem } from 'react-breadcrumbs-dynamic';
+import store from '../redux/store';
 
-import Models from '../models';
 import NoMatch from '../components/_general/NoMatch';
 import TownCard from '../components/cards/TownCard';
 
@@ -12,21 +12,19 @@ import TownCard from '../components/cards/TownCard';
 import TavernRoute from './TavernRoute';
 import AlchemistRoute from './AlchemistRoute';
 
-window.Models = Models;
-
-const data = {
-  town: Models.Town.generate(),
-  alchemist: {
-    business: Models.Alchemist.generate(),
-    owner: Models.NPC.generate()
-  },
-  tavern: {
-    business: Models.Tavern.generate(),
-    owner: Models.NPC.generate()
-  }
-};
+window.store = store;
 
 class TownRoute extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      town: null,
+      tavern: null,
+      alchemist: null,
+    };
+  };
+
   render() {
     return (
       <React.Fragment>
@@ -34,15 +32,15 @@ class TownRoute extends Component {
 
         <Switch location={this.props.location}>
           <Route exact path="/" render={(props) => (
-            <TownCard {...props} {...data} />
+            <TownCard {...props} {...this.props.world} />
           )} />
 
           <Route path="/alchemist" render={(props) => (
-            <AlchemistRoute {...props} {...data.alchemist} />
+            <AlchemistRoute {...props} {...this.props.world.alchemist} />
           )} />
 
           <Route path="/tavern" render={(props) => (
-            <TavernRoute {...props} {...data.tavern} />
+            <TavernRoute {...props} {...this.props.world.tavern} />
           )} />
 
           <Route component={NoMatch} />

@@ -3,17 +3,15 @@ import Road from '../Road/Road';
 
 const Town = (() => {
 
-  const name = (() => {
+  const getName = () => {
     return data.prefix.random() + data.suffix.random();
-  })();
+  };
 
-  const population = (() => {
+  const getPopulation = () => {
     return Math.floor(Math.random() * 250) * 10;
-  })();
+  };
 
-  const populationCategory = (() => {
-    const pop = population;
-
+  const getPopulationCategory = (pop) => {
     switch (true) {
       case pop <= 100:                    return 1;
       case pop > 100 && pop <= 500:       return 2;
@@ -24,9 +22,9 @@ const Town = (() => {
       case pop > 1900 && pop <= 2200:     return 7;
       case pop > 2200 && pop <= 2500:     return 8;
     }
-  })();
+  };
 
-  const sizeDescriptor = () => {
+  const getSizeDescriptor = (populationCategory) => {
     switch (populationCategory) {
       case 1:   return 'triflingly small outpost';
       case 2:   return 'tiny camp';
@@ -39,16 +37,19 @@ const Town = (() => {
     }
   };
 
-  const description = (() => {
-    return data.approach.random() + ' the ' + sizeDescriptor() + ' of ' + name +', with its population of ' + population + '.';
-  })();
+  const getDescription = (name, population) => {
+    return data.approach.random() + ' the ' + getSizeDescriptor(getPopulationCategory(population)) + ' of ' + name +', with its population of ' + population + '.';
+  };
 
   const generate = () => {
+    const name = getName();
+    const population = getPopulation();
+
     return {
       name,
       population,
-      populationCategory,
-      description,
+      populationCategory: getPopulationCategory(population),
+      description: getDescription(name, population),
       primaryRoad: Road.generate(),
       secondaryRoad: Road.generate(),
       tertiaryRoad: Road.generate()

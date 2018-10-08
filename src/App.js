@@ -4,6 +4,10 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { connect } from 'react-redux';
+
+import store from './redux/store';
+import * as actions from './redux/actions';
 
 /**
  * Stylesheet
@@ -17,23 +21,15 @@ import BreadCrumbs from './components/_general/BreadCrumbs';
 import Footer from './components/_general/Footer';
 import TownRoute from "./routes/TownRoute";
 import Models from "./models";
-import Town from "./models/Town/Town";
 
 window.Models = Models;
+window.actions = actions;
 
-const data = {
-  town: Town.generate(),
-  alchemist: {
-    business: Models.Alchemist.generate(),
-    owner: Models.NPC.generate()
-  },
-  tavern: {
-    business: Models.Tavern.generate(),
-    owner: Models.NPC.generate()
-  }
-};
+store.dispatch(actions.setWorld(Models.generate()));
 
-console.log({ data });
+const mapStateToProps = state => ({
+  world: state.world,
+});
 
 const App = props => (
   <main className="App">
@@ -55,4 +51,4 @@ const App = props => (
 );
 
 // export default withRouter(App);
-export default withRouter(App);
+export default withRouter(connect(mapStateToProps)(App));

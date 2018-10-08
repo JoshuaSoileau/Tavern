@@ -4,7 +4,23 @@ import Alchemist from './Alchemist/Alchemist';
 import Tavern from './Tavern/Tavern';
 
 export default (() => {
+
+  const generate = () => {
+    return {
+      town: Town.generate(),
+      alchemist: {
+        business: Alchemist.generate(),
+        owner: NPC.generate()
+      },
+      tavern: {
+        business: Tavern.generate(),
+        owner: NPC.generate()
+      }
+    }
+  };
+
   return {
+    generate,
     NPC,
     Town,
     Alchemist,

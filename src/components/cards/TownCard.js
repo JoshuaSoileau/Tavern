@@ -10,10 +10,11 @@ const IconAlchemist = icons.cauldron.random();
 class TownCard extends Component {
 
   render() {
+    console.log(this.props);
     return (
       <div className="card">
         {/* {icons.castle.random()} */}
-        <IconCastle className="icon icon--card icon--castle  fade--1" />
+        <IconCastle className="icon icon--card icon--castle  delay--1" />
         <h6 className="card__subtitle  delay--2">The town of</h6>
         <h1 className="card__title  delay--3">{this.props.town.name}</h1>
         <p className="delay--4">{this.props.town.description}</p>

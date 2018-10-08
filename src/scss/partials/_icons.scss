@@ -6,4 +6,8 @@
   display: block;
   margin: 40px auto;
   width: 140px;
+
+  @include bp($mdm) {
+    margin-top: 0;
+  }
 }

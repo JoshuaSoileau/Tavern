@@ -5,8 +5,8 @@
   padding: 100px 0;
   width: $card-width;
 
-  @media (max-width: 768px) {
-    padding: 100px 0 50px;
+  @include bp($mdm) {
+    padding: 80px 0 50px;
   }
 
   &__title {
@@ -33,10 +33,6 @@
     &-link {
       margin-bottom: $base-margin;
       position: relative;
-
-      @media (max-width: 768px) {
-        padding-left: 62px;
-      }
     }
 
     &-icon {
