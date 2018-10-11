@@ -20,7 +20,7 @@ class AlchemistRoute extends Component {
           <Route path={`${this.props.match.path}/owner`} render={(props) => (
             <React.Fragment>
               <BreadcrumbsItem to={`${this.props.match.path}/owner`}><span className="title">Owner</span></BreadcrumbsItem>
-              <NpcCard {...props} {...this.props.owner} />
+              <NpcCard {...props} {...this.props.owner} owns={this.props.business.name} />
             </React.Fragment>
           )}/>
         </Switch>

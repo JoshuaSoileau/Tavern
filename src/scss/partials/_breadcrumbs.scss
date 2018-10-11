@@ -4,6 +4,10 @@
   list-style: none;
   max-width: $card-max-width;
 
+  @include bp($small)  {
+    max-width: calc(100% - 116px + 24px);
+  }
+
   &::after {
     clear: both;
     content: '';
@@ -17,15 +21,15 @@
   .breadcrumb {
     float: left;
     list-style: none;
-    margin: 0;
+    margin: 0 8px 0 0;
     // margin-right: 15px;
     padding: 0;
 
-    &:not(.last) {
-      .title::after {
+    &:not(:first-child) {
+      .title::before {
         content: '>';
         display: inline-block;
-        margin: 0 8px;
+        margin: 0 8px 0 0;
       }
     }
   }

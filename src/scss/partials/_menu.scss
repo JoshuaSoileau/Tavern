@@ -67,9 +67,12 @@
     font-size: 1em;
     margin-bottom: $base-margin;
 
+    @include bp($small)  {
+      font-size: 0.9em;
+    }
+
     &-link {
       color: $c-text;
-      padding-left: 40px;
       position: relative;
       text-decoration: none;
     }
@@ -105,9 +108,50 @@
     transform: translateX(20px);
     transition: all $transition-duration ease;
 
-    &:nth-child(1) {    transition-delay: $fade-delay + $fade-delay * 2; }
-    &:nth-child(2) {    transition-delay: $fade-delay + $fade-delay * 3; }
-    &:nth-child(3) {    transition-delay: $fade-delay + $fade-delay * 4; }
+    @for $i from 1 through 20 {
+      &:nth-child(#{$i}) {    transition-delay: $fade-delay + ($fade-delay/2) * ($i + 1); }
+    }
+
+    @for $i from 0 through 10 {
+      &--lvl-#{$i} {
+        margin-left: $base-margin * 2 * ($i);
+
+        @include bp($small)  {
+          // margin-left: $base-margin * 1 * ($i);
+        }
+      }
+    }
+
+    &::before {
+      border: 1px solid black;
+      border-right-width: 0;
+      border-top-width: 0;
+      content: '';
+      display: inline-block;
+      height: $base-margin;
+      margin-right: $base-margin/2;
+      margin-top: 2px;
+      width: $base-margin;
+      vertical-align: top;
+
+      @include bp($small)  {
+        margin-top: 4px;
+        height: $base-margin/2;
+        width: $base-margin/2;
+      }
+    }
+
+    &--lvl-0 {
+      padding-left: $base-margin + $base-margin/2;
+
+      @include bp($small)  {
+        padding-left: $base-margin;
+      }
+
+      &::before {
+        display: none;
+      }
+    }
   }
 
   &--open {

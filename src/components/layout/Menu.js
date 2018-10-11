@@ -44,22 +44,29 @@ class Menu extends Component {
         </button>
         <div className={this.state.open ? 'navigation-menu navigation-menu--open' : 'navigation-menu'}>
           <ul className="menu">
-            <li className="menu__item">
+            <li className="menu__item menu__item--lvl-0">
               <Link onClick={this.handleNavClick} className="menu__item-link" to="/">
-                <IconTown className="menu__item-icon" />
                 Town
               </Link>
             </li>
-            <li className="menu__item">
+            <li className="menu__item menu__item--lvl-1">
               <Link onClick={this.handleNavClick} className="menu__item-link" to="/tavern">
-                <IconTavern className="menu__item-icon" />
                 Tavern
               </Link>
             </li>
-            <li className="menu__item">
+            <li className="menu__item menu__item--lvl-2">
+              <Link onClick={this.handleNavClick} className="menu__item-link" to="/tavern/owner">
+                Owner
+              </Link>
+            </li>
+            <li className="menu__item menu__item--lvl-1">
               <Link onClick={this.handleNavClick} className="menu__item-link" to="/alchemist">
-                <IconAlchemist className="menu__item-icon" />
                 Alchemist
+              </Link>
+            </li>
+            <li className="menu__item menu__item--lvl-2">
+              <Link onClick={this.handleNavClick} className="menu__item-link" to="/alchemist/owner">
+                Owner
               </Link>
             </li>
           </ul>

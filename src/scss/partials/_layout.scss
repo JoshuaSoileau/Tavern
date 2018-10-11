@@ -9,7 +9,12 @@
   > div:not([class]) {
     align-items: center;
     display: flex;
-    min-height: calc(100vh - (50px + 65px);
+    min-height: calc(100vh - (50px + 65px));
     width: 100%;
+
+    @include bp($small) {
+      align-items: initial;
+      // min-height: calc(100vh - (50px + 65px + 80px));
+    }
   }
 }

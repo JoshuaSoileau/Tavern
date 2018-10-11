@@ -24,6 +24,7 @@ const NPC = (() => {
         himher: 'him',
         manwoman: 'man',
         mrmrs: 'Mr.',
+        malefemale: 'male',
       },
       'female': {
         heshe: 'she',
@@ -31,6 +32,7 @@ const NPC = (() => {
         himher: 'her',
         manwoman: 'woman',
         mrmrs: 'Mrs.',
+        malefemale: 'female',
       },
     }[gender];
 
