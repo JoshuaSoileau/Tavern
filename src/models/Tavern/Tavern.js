@@ -6,19 +6,24 @@ const Tavern = (() => {
     return 'The ' + data.adjective.random() + ' ' + data.noun.random();
   };
 
-  const cleanliness = () => {
-    return 'The room is ' + data.cleanlinessDescriptor.random();
+  const entrance = () => {
+    return data.entranceDescription.random();
   };
 
-  const entrance = () => {
-    return data.entranceDescription.random() + ' ' + name + '.';
+  const atmosphere = () => {
+    return data.atmosphereDescription.random();
+  };
+
+  const crowd = () => {
+    return data.crowdDescription.random();
   };
 
   const generate = () => {
     return {
       name: name(),
-      cleanliness: cleanliness(),
       entrance: entrance(),
+      atmosphere: atmosphere(),
+      crowd: crowd(),
     };
   };
 

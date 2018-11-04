@@ -3,6 +3,8 @@ import Town from './Town/Town';
 import Alchemist from './Alchemist/Alchemist';
 import Tavern from './Tavern/Tavern';
 
+import Items from './Items';
+
 export default (() => {
 
   const generate = () => {
@@ -25,5 +27,6 @@ export default (() => {
     Town,
     Alchemist,
     Tavern,
+    Items
   }
 })();

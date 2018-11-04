@@ -1,0 +1,84 @@
+{
+  "potions": [
+    {
+      "name": "Assassin's blood",
+      "cost": "150gp",
+      "dc": 10
+    },
+    {
+      "name": "Truth serum",
+      "cost": "150gp",
+      "dc": 11
+    },
+    {
+      "name": "Carrion crawler mucus",
+      "cost": "200gp",
+      "dc": 13
+    },
+    {
+      "name": "Drow poison",
+      "cost": "200gp",
+      "dc": 13
+    },
+    {
+      "name": "Serpent venom",
+      "cost": "200gp",
+      "dc": 11
+    },
+    {
+      "name": "Malice",
+      "cost": "250gp",
+      "dc": 15
+    },
+    {
+      "name": "Pale tincture",
+      "cost": "250gp",
+      "dc": 16
+    },
+    {
+      "name": "Essence of ether",
+      "cost": "300gp",
+      "dc": 15
+    },
+    {
+      "name": "Oil of taggit",
+      "cost": "400gp",
+      "dc": 13
+    },
+    {
+      "name": "Burnt othur fumes",
+      "cost": "500gp",
+      "dc": 13
+    },
+    {
+      "name": "Torpor",
+      "cost": "600gp",
+      "dc": 15
+    },
+    {
+      "name": "Wyvern poison",
+      "cost": "1200gp",
+      "dc": 15
+    },
+    {
+      "name": "Midnight tears",
+      "cost": "1500gp",
+      "dc": 17
+    },
+    {
+      "name": "Purple worm poison",
+      "cost": "2000gp",
+      "dc": 19
+    },
+    {
+      "name": "Antitoxin",
+      "cost": "50",
+      "dc": 0
+    },
+    {
+      "name": "Basic Poison",
+      "cost": "100gp",
+      "dc": 10
+    }
+  ]
+}

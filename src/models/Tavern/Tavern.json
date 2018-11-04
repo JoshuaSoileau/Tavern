@@ -88,18 +88,22 @@
     "Delight",
     "Wish"
   ],
-  "cleanlinessDescriptor": [
-    "reasonably tidy. There are stacks of paper here and there, loosely organized in a semi-thought out fashion.",
-    "disastrously messy. There are papers strewn about, covering the floor. Potions & vials are splayed about in rambunctious fashion. It looks as though a small tornado has had it's way with the room.",
-    "rather messy. There are scattered papers & vials strewn about the room. You can see a semi-thought out organization to the sections of the room, with one half being a a large wooden counter, with poorly made displays filled with all manner of things that may or may not be for sale.",
-    "pristinely tidy. The ground is emaculate, clearly having been swept recently. The counter is almost empty, save for 3 perfectly thought out display cases showcasing the most potent potions available."
-  ],
   "entranceDescription": [
-    "You push an oddly heavy brass door open and enter",
-    "The door creaks and falls back with a light thud as you enter",
-    "You push through an oddly light door and walk in to",
-    "You walk through the doorway and enter",
-    "A light creak sounds from the rusty door as you enter",
-    "A heavy wooden door swings open as you enter"
+    "You enter the tavern through two large wooden doors. You can hear the crackling of firewood on the fire, and the smell of roasting mutton and smoke fills the room.",
+    "You walk through the two large wooden doors leading into the tavern.",
+    "The door creaks behind you as it falls shut and you find yourself standing in the entrance to a spacious tavern.",
+    "Your feet drag on the cold dirt floor and you find yourself in the town tavern. You see a large but poorly kept room with dirt floors and a large fire in the center of the room."
+  ],
+  "atmosphereDescription": [
+    "The smell of burnt mutton and salt, mixed with smoke fills the room, and you can hear crackling as the fire in the center of the room dwindles down, needing a rekindling.",
+    "You feel the cold of air on your cheek inside this tavern, because it seems like the owner has let the fires burn too low, being distracted and not paying attention.",
+    "You can smell the faint odor of dried blood as you walk towards the center of the room. But whether it be from a recent brawl or just the butchering of mutton from a recent meal you do not know.",
+    "The smell of stale ale sits in the air. You notice the floor and tabletops are either outright wet, or sticky. This place is not particularly well kept."
+  ],
+  "crowdDescription": [
+    "You notice a large crowd gathering near the fire in the center of the cavern. A large circular ring outlined by a ricketty wooden rail is placed near the center of the room, the large crowd circling around it. You hear loud raucous hoots and hollers as what appears to be a competitive fighting pit match takes place in the ring. A very burly dwarf is in the center and appears to be in the fight of his life against a feral wolf.",
+    "You can see immediately the tavern is not very crowded. There are tables spread out around the room, mostly empty. Near the corners of the room you can see a well-kept half elf man speaking with a thick, bearded dwarf. In another corner there's a group of humans partaking in a game of cards, one of the muttering angrily under his breath as his pile of coin dwindles down.",
+    "The tavern is full of patrons at this hour. You can tell from a brief glimpse that the tavern must be a popular gambling spot. Several tables are house groups of orcs and humans partaking in a game of cards. At one table you see can see a shady half-elf gentleman reach his hand under the table and you swear you catch a glimpse of a second deck of cards sliding around in his pocket.",
+    "The crowd of this tavern looks like a rough bunch. Perhaps the fighters guild around these parts uses this as their drinking spot. Most of the crowd is heavily armored, and a good majority of the folks here are well past enamored. You see the remnants of broken chairs in one corner of the room, indicating a brawl that probably broke out in the past hour or so."
   ]
 }
