@@ -1,4 +1,4 @@
-@for $i from 1 through 20 {
+@for $i from 1 through 100 {
   .delay--#{$i} {
     animation: fade-in-slide-up $transition-duration ease forwards;
     animation-delay: $fade-delay + $fade-delay * $i;
@@ -7,7 +7,7 @@
   }
 }
 
-@for $i from 1 through 20 {
+@for $i from 1 through 100 {
   .fade--#{$i} {
     animation: fade-in $transition-duration ease forwards;
     animation-delay: $fade-delay + $fade-delay * $i;

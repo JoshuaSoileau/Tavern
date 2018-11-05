@@ -1,4 +1,30 @@
 import data from './Alchemist.json';
+import items from '../Items';
+
+const isInStock = (item) => {
+  const rand = Math.floor(Math.random() * 100);
+
+  const rarity = {
+    "Common": 20,
+    "Uncommon": 50,
+    "Rare": 70,
+    "Very Rare": 80,
+    "Legendary": 95,
+  };
+
+  return !item.rarity || rand > rarity[item.rarity];
+}
+
+const inventory = [
+  ...(() => {
+    console.log(items);
+    const remainingItems = items.potions.items.filter((item) => isInStock(item));
+
+    return [
+      ...remainingItems
+    ];
+  })(),
+];
 
 const Alchemist = (() => {
 
@@ -21,6 +47,7 @@ const Alchemist = (() => {
       name,
       cleanliness: getCleanliness(),
       entrance: getEntrance(name),
+      inventory,
     };
   };
 

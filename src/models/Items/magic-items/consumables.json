@@ -1,0 +1,360 @@
+{
+  "items": [
+    {
+      "name": "Spell Scroll Level 1",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 13 and an attack bonus of +5.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 11 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.\n\n",
+      "price": "40 gp",
+      "rarity": "Common",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 2",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 13 and an attack bonus of +5.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 12 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "375 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 3",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 15 and an attack bonus of +7.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 13 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "750 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 4",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 14. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 15 and an attack bonus of +7.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 14 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "3,750 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 5",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 15. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 17 and an attack bonus of +9.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 15 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "7.500 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 6",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 16. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 17 and an attack bonus of +9.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 16 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "22,500 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 7",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 17. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 18 and an attack bonus of +10.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 17 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "25,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 8",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 18. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 18 and an attack bonus of +10.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 18 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "75,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Spell Scroll Level 9",
+      "description": "A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 19. On a failed check, the spell disappears from the scroll with no other effect.\n\nOnce the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\n\nA spell cast from this scroll has a save DC of 19 and an attack bonus of +11.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 19 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
+      "price": "375,000 gp",
+      "rarity": "Legendary",
+      "type": "magic"
+    },
+    {
+      "name": "Scroll of Protection",
+      "description": "Using an action to read the scroll encloses you in an invisible barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents a type of creature from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an aberration would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.\n\nTypes of creatures you can use.\n(Aberrations, Beasts, Celestials, Elementals, Fey, Fiends, Plants, Undead)",
+      "price": "200 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Nolzur's Marvelous Pigments",
+      "description": "Typically found in 1d4 pots inside a fine wooden box with a brush (weighing 1 pound in total), these pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.\n\nEach pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects or terrain features-such as a door, a pit, flowers, trees, cells, rooms, or weapons- that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet.\n\nWhen you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Thus, painting a door on a wall creates an actual door that can be opened to whatever is beyond. Painting a pit on a floor creates a real pit, and its depth counts against the total area of objects you create.\n\nNothing created by the pigments can have a value greater than 25 gp. If you paint an object of greater value (such as a diamond or a pile of gold), the object looks authentic, but close inspection reveals it is made from paste, bone, or some other worthless material.\n\nIf you paint a form of energy such as fire or lightning, the energy appears but dissipates as soon as you complete the painting, doing no harm to anything.",
+      "price": "200 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Ammunition +1 (Per)",
+      "description": "You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+      "price": "15 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Ammunition +2 (Per)",
+      "description": "You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+      "price": "50 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Ammunition +3 (Per)",
+      "description": "You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+      "price": "250 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Keoghtom's Ointment (1 Dose)",
+      "description": "This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.\n\nAs an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.",
+      "price": "150 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Quaal's Feather Token Anchor",
+      "description": "his tiny object looks like a feather.\n\nAnchor: You can use an action to touch the token to a boat or ship. For the next 24 hours, the vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears.",
+      "price": "50 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Quaal's Feather Token Fan",
+      "description": "This tiny object looks like a feather.\n\nFan: If you are on a boat or ship, you can use an action to toss the token up to 10 feet in the air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a wind strong enough to fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as an action.",
+      "price": "250 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Quaal's Feather Token Whip",
+      "description": "This tiny object looks like a feather.\n\nWhip: You can use an action to throw the token to a point within 10 feet of you. The token disappears, and a floating whip takes its place. You can then use a bonus action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes 1d6 + 5 force damage.\n\nAs a bonus action on your turn, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of it. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are incapacitated or die.",
+      "price": "250 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Quaal's Feather Token Bird",
+      "description": "This tiny object looks like a feather.\n\nBird: You can use an action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of a roc (see the Monster Manual), but it obeys your simple commands and can't attack. It can carry up to 500 pounds while flying at its maximum speed (16 miles an hour for a maximum of 144 miles per day. with a one-hour rest for every 3 hours of flying), or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 hit points. You can dismiss the bird as an action.",
+      "price": "3,000 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Quaal's Feather Token Swan Boat",
+      "description": "This tiny object looks like a feather.\n\nSwan Boat: You can use an action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot-wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can use an action while on the boat to command it to move or to turn up to 90 degrees. The boat can carry up to thirty-two Medium or smaller creatures. A Large creature counts as four Medium creatures, while a Huge creature counts as nine. The boat remains for 24 hours and then disappears. You can dismiss the boat as an action.",
+      "price": "2,000 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Quaal's Feather Token Tree",
+      "description": "This tiny object looks like a feather.\n\nTree: You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.",
+      "price": "500 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Deck of Illusions",
+      "description": "This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing 1d20 - 1 cards.\n\nThe magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you.\n\nAn illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature (as presented in the Monster Manual), except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can use an action to move it magically anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as illusory with a successful DC 15 Intelligence (Investigation) check. The creature then appears translucent.\n\nThe illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.\n\nPlaying Card — Illusion:\n\nAce of hearts — Red dragon\nKing of hearts — Knight and four guards\nQueen of hearts — Succubus or incubus\nJack of hearts — Druid\nTen of hearts — Cloud giant\nNine of hearts — Ettin\nEight of hearts — Bugbear\nTwo of hearts — Goblin\nAce of diamonds — Beholder\nKing of diamonds — Archmage and mage apprentice\nQueen of diamonds — Night hag\nJack of diamonds — Assassin\nTen of diamonds — Fire giant\nNine of diamonds — Ogre mage\nEight of diamonds — Gnoll\nTwo of diamonds — Kobold\nAce of spades — Lich\nKing of spades — Priest and two acolytes\nQueen of spades — Medusa\nJack of spades — Veteran\nTen of spades — Frost giant\nNine of spades — Troll\nEight of spades — Hobgoblin\nTwo of spades — Goblin\nAce of clubs — Iron golem\nKing of clubs — Bandit captain and three bandits\nQueen of clubs — Erinyes\nJack of clubs — Berserker\nTen of clubs — Hill giant\nNine of clubs — Ogre\nEight of clubs — Ore\nTwo of clubs — Kobold\njokers (2) — You (the deck's owner)",
+      "price": "6,000 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Dust of Disappearance",
+      "description": "Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become invisible for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.",
+      "price": "300 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Universal Solvent",
+      "description": "This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including sovereign glue.",
+      "price": "300 gp",
+      "rarity": "Legendary",
+      "type": "magic"
+    },
+    {
+      "name": "Dust of Dryness(Per Pinch)",
+      "description": "This small packet contains 1d6 + 4 pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible.\n\nSomeone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic.\n\nAn elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one.",
+      "price": "100 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Sovereign Glue",
+      "description": "This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with oil of slipperiness. When found, a container contains 1d6 + 1 ounces.\n\nOne ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of universal solvent or oil of etherealness, or with a wish spell.",
+      "price": "400 gp",
+      "rarity": "Legendary",
+      "type": "magic"
+    },
+    {
+      "name": "Horn of Blasting",
+      "description": "You can use an action to speak the horn's command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6 thunder damage and is deafened for 1 minute. On a successful save, a creature takes half as much damage and isn't deafened. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6 thunder damage instead of 5d6.\n\nEach use of the horn's magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn.",
+      "price": "450 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Dust of Sneezing and Choking",
+      "description": "Found in a small container, this powder resembles very fine sand. It appears to be dust of disappearance, and an identify spell reveals it to be such. There is enough of it for one use.\n\nWhen you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe while sneezing uncontrollably. A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The lesser restoration spell can also end the effect on a creature.",
+      "price": "500 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Arrow of Slaying",
+      "description": "An arrow of slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both arrows of dragon slaying and arrows of blue dragon slaying. If a creature belonging to the type, race, or group associated with an arrow of slaying takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.\n\nOnce an arrow of slaying deals its extra damage to a creature, it becomes a nonmagical arrow.",
+      "price": "400 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Bead of Force",
+      "description": "This small black sphere measures 3/4 of an inch in diameter and weighs an ounce. Typically, 1d4 + 4 beads of force are found together.\n\nYou can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4 force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can.\n\nAn enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.",
+      "price": "1,000 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Elemental Gem",
+      "description": "This gem contains a mote of elemental energy. When you use an action to break the gem,(Based on the color of the gem) an air, fire, earth, or water elemental is summoned as if you had cast the conjure elemental spell, and the gem's magic is lost.",
+      "price": "1,000 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Necklace of Fireballs (1 bead)",
+      "description": "This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 6 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+      "price": "300 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Necklace of Fireballs (2 beads)",
+      "description": "This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 6 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+      "price": "500 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Necklace of Fireballs (3 beads)",
+      "description": "This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 6 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+      "price": "1,000 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Necklace of Fireballs (4 beads)",
+      "description": "This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 6 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+      "price": "1,600 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Necklace of Fireballs (5 beads)",
+      "description": "This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 6 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+      "price": "4,000 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Necklace of Fireballs (6 beads)",
+      "description": "This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 6 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.",
+      "price": "8,000 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Chime of Opening",
+      "description": "This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime issues a clear tone, and one lock or latch on the object opens unless the sound can't reach the object. If no locks or latches remain, the object itself opens.\n\nThe chime can be used ten times. After the tenth time it cracks and becomes useless.",
+      "price": "1,500 gp",
+      "rarity": "Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Ioun Stone Absorption",
+      "description": "An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.\n\nWhen you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.\n\nA stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.\n\nAbsorption.\n\nWhile this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.\n\nOnce the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.",
+      "price": "2,400 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Ioun Stone Greater Absorption",
+      "description": "An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.\n\nWhen you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.\n\nA stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.\n\nGreater Absorption.\n\nWhile this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you. Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.",
+      "price": "30,000 gp",
+      "rarity": "Legendary",
+      "type": "magic"
+    },
+    {
+      "name": "Gem of Brightness",
+      "description": "This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:\n\n• The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.\n\n• The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\n• The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.\n\nWhen all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 gp.",
+      "price": "5,000 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Rod of Absorption",
+      "description": "While holding this rod, you can use your reaction to absorb a spell that is targeting only you and not with an area of effect. The absorbed spell's effect is canceled, and the spell's energy — not the spell itself — is stored in the rod. The energy has the same level as the spell when it was cast. The rod can absorb and store up to 50 levels of energy over the course of its existence. Once the rod absorbs 50 levels of energy, it can't absorb more. If you are targeted by a spell that the rod can't store, the rod has no effect on that spell.\n\nWhen you become attuned to the rod, you know how many levels of energy the rod has absorbed over the course of its existence, and how many levels of spell energy it currently has stored.\n\nIf you are a spellcaster holding the rod, you can convert energy stored in it into spell slots to cast spells you have prepared or know. You can create spell slots only of a level equal to or lower than your own spell slots, up to a maximum of 5th level. You use the stored levels in place of your slots, but otherwise cast the spell as normal. For example, you can use 3 levels stored in the rod as a 3rd-level spell slot.\n\nA newly found rod has 1d10 levels of spell energy stored in it already. A rod that can no longer absorb spell energy and has no energy remaining becomes nonmagical.\n(Requires Attunement)",
+      "price": "50,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Talisman of Ultimate Evil",
+      "description": "This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes 6d6 necrotic damage upon touching the talisman. A good creature takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.\n\nIf you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.\n\nThe talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.",
+      "price": "62,000 gp",
+      "rarity": "Legendary",
+      "type": "magic"
+    },
+    {
+      "name": "Talisman of Pure Good",
+      "description": "This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6 radiant damage upon touching the talisman. An evil creature takes 8d6 radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.\n\nIf you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.\n\nThe talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.",
+      "price": "72,000 gp",
+      "rarity": "Legendary",
+      "type": "magic"
+    },
+    {
+      "name": "Robe of Useful Items",
+      "description": "This robe has cloth patches of various shapes and colors covering it. While wearing the robe. you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.\n\nThe robe has two of each of the following patches:\n\n• Dagger\n\n• Bullseye lantern (filled and lit)\n\n• Steel mirror\n\n• 10-foot pole\n\n• Hempen rope (50 feet, coiled)\n\n• Sack\n\nIn addition, the robe has 4d4 other patches. The DM chooses the patches or determines them randomly.\n\nd100 — Patch:\n\n01-08 — Bag of 100 gp\n\n09-15 — Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp\n\n16-22 — Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself\n\n23-30 — 10 gems worth 100 gp each\n\n31-44 — Wooden ladder (24 feet long)\n\n45-51 — A riding horse with saddle bags (see the Monster Manual for statistics)\n\n52-59 — Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you\n\n60-68 — 4 potions of healing\n\n69-75 — Rowboat (12 feet long)\n\n76-83 — Spell scroll containing one spell of 1st to 3rd level\n\n84-90 — 2 mastiffs (see the Monster Manual for statistics)\n\n91-96 — Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach\n\n97-00 — Portable ram",
+      "price": "7,000 gp",
+      "rarity": "Uncommon",
+      "type": "magic"
+    },
+    {
+      "name": "Manual of Bodily Health",
+      "description": "This book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
+      "price": "55,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Manual of Gainful Exercise",
+      "description": "This book contains coordination and balance exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Dexterity score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
+      "price": "55,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Manual of Quickness of Action",
+      "description": "This book contains coordination and balance exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Dexterity score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
+      "price": "55,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Manual of Sharpened Mind",
+      "description": "This book contains memory and mental exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
+      "price": "55,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Manual of Glamour and Prestige",
+      "description": "This book contains tactical and prediction exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Wisdom score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
+      "price": "55,000 gp",
+      "rarity": "Very Rare",
+      "type": "magic"
+    },
+    {
+      "name": "Manual of Prudent Foresight",
+      "description": "This book contains social and mannerism exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.",
+      "price": "55,000 gp",
+      "rarity": "Very Rare"
+    }
+  ]
+}

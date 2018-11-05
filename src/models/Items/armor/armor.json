@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "name": "Padded",
+      "price": "5 gp",
+      "AC": "11 + Dex",
+      "weight": "8 lb.",
+      "stealth": "Disadvantage",
+      "strength": "",
+      "type": "light",
+      "rarity": "Common"
+    },
+    {
+      "name": "Leather",
+      "price": "10 gp",
+      "AC": "11 + Dex",
+      "weight": "10 lb.",
+      "stealth": "",
+      "strength": "",
+      "type": "light",
+      "rarity": "Common"
+    },
+    {
+      "name": "Studded Leather",
+      "price": "45 gp",
+      "AC": "12 + Dex",
+      "weight": "13 lb.",
+      "stealth": "",
+      "strength": "",
+      "type": "light",
+      "rarity": "Common"
+    },
+    {
+      "name": "Hide",
+      "price": "10 gp",
+      "AC": "12 + Dex(max2)",
+      "weight": "12 lb.",
+      "stealth": "",
+      "strength": "",
+      "type": "medium",
+      "rarity": "Common"
+    },
+    {
+      "name": "Chain Shirt",
+      "price": "50 gp",
+      "AC": "13 + Dex(max2)",
+      "weight": "20 lb.",
+      "stealth": "",
+      "strength": "",
+      "type": "medium",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scail Mail",
+      "price": "50 gp",
+      "AC": "14 + Dex(max2)",
+      "weight": "45 lb.",
+      "stealth": "Disadvantage",
+      "strength": "",
+      "type": "medium",
+      "rarity": "Common"
+    },
+    {
+      "name": "Breastplate",
+      "price": "400 gp",
+      "AC": "14 + Dex(max2)",
+      "weight": "20 lb.",
+      "stealth": "",
+      "strength": "",
+      "type": "medium",
+      "rarity": "Common"
+    },
+    {
+      "name": "Half Plate",
+      "price": "750 gp",
+      "AC": "15 + Dex(max2)",
+      "weight": "40 lb.",
+      "stealth": "Disadvantage",
+      "strength": "",
+      "type": "medium",
+      "rarity": "Common"
+    },
+    {
+      "name": "Ring Mail",
+      "price": "30 gp",
+      "AC": 14,
+      "weight": "40 lb.",
+      "stealth": "Disadvantage",
+      "strength": "",
+      "type": "heavy",
+      "rarity": "Common"
+    },
+    {
+      "name": "Chain Mail",
+      "price": "75 gp",
+      "AC": 16,
+      "weight": "55 lb.",
+      "stealth": "Disadvantage",
+      "strength": "Required Strength 13",
+      "type": "heavy",
+      "rarity": "Common"
+    },
+    {
+      "name": "Splint",
+      "price": "200 gp",
+      "AC": 17,
+      "weight": "60 lb.",
+      "stealth": "Disadvantage",
+      "strength": "Required Strength 15",
+      "type": "heavy",
+      "rarity": "Common"
+    },
+    {
+      "name": "Plate",
+      "price": "1500 gp",
+      "AC": 18,
+      "weight": "65 lb.",
+      "stealth": "Disadvantage",
+      "strength": "Required Strength 15",
+      "type": "heavy",
+      "rarity": "Common"
+    },
+    {
+      "name": "Shields",
+      "price": "10 gp",
+      "AC": "",
+      "weight": "6 lb.",
+      "stealth": "",
+      "strength": "",
+      "type": "shield"
+    }
+  ]
+}

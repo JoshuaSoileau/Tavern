@@ -5,6 +5,8 @@ import Tavern from './Tavern/Tavern';
 
 import Items from './Items';
 
+window.Items = Items;
+
 export default (() => {
 
   const generate = () => {

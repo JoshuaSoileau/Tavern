@@ -1,0 +1,345 @@
+{
+  "items": [
+    {
+      "name": "Club",
+      "price": "1 sp",
+      "damage": "1d4 Bludgeon",
+      "weight": "2 lb.",
+      "description": "Light",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Dagger",
+      "price": "2 gp",
+      "damage": "1d4 Piercing",
+      "weight": "1 lb.",
+      "description": "Finesse, Light, Thrown (20/60)",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Greatclub",
+      "price": "2 sp",
+      "damage": "1d8 Bludgeon",
+      "weight": "10 lb.",
+      "description": "Two-handed",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Handaxe",
+      "price": "5 gp",
+      "damage": "1d6 Slashing",
+      "weight": "2 lb.",
+      "description": "Light, Thrown (20/60)",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Javelin",
+      "price": "5 sp",
+      "damage": "1d6 Piercing",
+      "weight": "2 lb.",
+      "description": "Thrown (30/120)",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Light hammer",
+      "price": "2 gp",
+      "damage": "1d4 Bludgeon",
+      "weight": "2 lb.",
+      "description": "Light, Thrown (20/60)",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Mace",
+      "price": "5 gp",
+      "damage": "1d6 Bludgeon",
+      "weight": "5 lb.",
+      "description": "-",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Quarterstaff",
+      "price": "2 sp",
+      "damage": "1d6 Bludgeon",
+      "weight": "5 lb.",
+      "description": "Versatile (1d8)",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Sickle",
+      "price": "1 gp",
+      "damage": "1d4 Slashing",
+      "weight": "2 lb.",
+      "description": "Light",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Spear",
+      "price": "1 gp",
+      "damage": "1d4 Piercing",
+      "weight": "3 lb.",
+      "description": "Thrown (20/60), Versatile (1d8)",
+      "type": "simple",
+      "rarity": "Common"
+    },
+    {
+      "name": "Crossbow, light",
+      "price": "25 gp",
+      "damage": "1d6 Piercing",
+      "weight": "5 lb.",
+      "description": "Ammunition (80/320), Loading, Two-handed",
+      "type": "ranged",
+      "rarity": "Common"
+    },
+    {
+      "name": "Dart",
+      "price": "5 cp",
+      "damage": "1d4 Piercing",
+      "weight": ".25 lb.",
+      "description": "Finesse, Thrown (20/60)",
+      "type": "ranged",
+      "rarity": "Common"
+    },
+    {
+      "name": "Shortbow",
+      "price": "25 gp",
+      "damage": "1d6 Piercing",
+      "weight": "2 lb.",
+      "description": "Ammunition (80/320), Two-handed",
+      "type": "ranged",
+      "rarity": "Common"
+    },
+    {
+      "name": "Sling",
+      "price": "1 sp",
+      "damage": "1d4 Bludgeon",
+      "weight": "-",
+      "description": "Ammunition (30/120)",
+      "type": "ranged",
+      "rarity": "Common"
+    },
+    {
+      "name": "Battleaxe",
+      "price": "10 gp",
+      "damage": "1d8 Slashing",
+      "weight": "4 lb.",
+      "description": "Versatile (1d10)",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Flail",
+      "price": "10 gp",
+      "damage": "1d8 Bludgeon",
+      "weight": "2 lb.",
+      "description": "-",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Glaive",
+      "price": "20 gp",
+      "damage": "1d10 Slashing",
+      "weight": "6 lb.",
+      "description": "Heavy, Reach, Two-handed",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Greataxe",
+      "price": "30 gp",
+      "damage": "1d12 Slashing",
+      "weight": "7 lb.",
+      "description": "Heavy, Two-handed",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Greatsword",
+      "price": "50 gp",
+      "damage": "2d6 Slashing",
+      "weight": "6 lb.",
+      "description": "Heavy, Two-handed",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Halberd",
+      "price": "20 gp",
+      "damage": "1d10 Slashing",
+      "weight": "6 lb.",
+      "description": "Heavy, Reach, Two-handed",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Lance",
+      "price": "10 gp",
+      "damage": "1d12 Piercing",
+      "weight": "6 lb.",
+      "description": "Reach, Special",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Longsword",
+      "price": "15 gp",
+      "damage": "1d8 Slashing",
+      "weight": "3 lb.",
+      "description": "Versatile (1d10)",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Maul",
+      "price": "10 gp",
+      "damage": "2d6 Bludgeon",
+      "weight": "10 lb.",
+      "description": "Heavy, Two-handed",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Morningstar",
+      "price": "15 gp",
+      "damage": "1d8 Piercing",
+      "weight": "4 lb.",
+      "description": "-",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Pike",
+      "price": "5 gp",
+      "damage": "1d10 Piercing",
+      "weight": "18 lb.",
+      "description": "Heavy, Reach, Two-handed",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Rapier",
+      "price": "25 gp",
+      "damage": "1d8 Piercing",
+      "weight": "2 lb.",
+      "description": "Finesse",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scimitar",
+      "price": "25 gp",
+      "damage": "1d6 Slashing",
+      "weight": "3 lb.",
+      "description": "Finesse, Light",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Shortsword",
+      "price": "10 gp",
+      "damage": "1d6 Slashing",
+      "weight": "2 lb.",
+      "description": "Finesse, Light",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Trident",
+      "price": "5 gp",
+      "damage": "1d6 Piercing",
+      "weight": "5 lb.",
+      "description": "Thrown (20/60), Versatile (1d8)",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "War pick",
+      "price": "5 gp",
+      "damage": "1d8 Piercing",
+      "weight": "2 lb.",
+      "description": "-",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Warhammer",
+      "price": "15 gp",
+      "damage": "1d8 Bludgeon",
+      "weight": "2 lb.",
+      "description": "Versatile (1d10)",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Whip",
+      "price": "2 gp",
+      "damage": "1d4 Slashing",
+      "weight": "3 lb.",
+      "description": "Finesse, Reach",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Martial Ranged Weapons",
+      "price": "",
+      "damage": "",
+      "weight": "",
+      "description": "",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Blowgun",
+      "price": "10 gp",
+      "damage": "1 Piercing",
+      "weight": "1 lb.",
+      "description": "Ammunition (25/100), Loading",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Crossbow, hand",
+      "price": "75 gp",
+      "damage": "1d6 Piercing",
+      "weight": "3 lb.",
+      "description": "Ammunition (30/120), Loading, Light",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Crossbow, heavy",
+      "price": "50 gp",
+      "damage": "1d10 Piercing",
+      "weight": "18 lb.",
+      "description": "Ammunition (100/400), Loading, Two-handed, Heavy",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Longbow",
+      "price": "50 gp",
+      "damage": "1d8 Piercing",
+      "weight": "2 lb.",
+      "description": "Ammunition (150/600), Heavy, Two-handed",
+      "type": "martial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Net",
+      "price": "1 gp",
+      "damage": "-",
+      "weight": "3 lb.",
+      "description": "Special, Thrown (5/15)",
+      "type": "martial"
+    }
+  ]
+}

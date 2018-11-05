@@ -1,0 +1,52 @@
+.inventory {
+
+  &__row {
+    list-style: none;
+    padding: 8px 0;
+
+    &::after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+
+    &:nth-child(even) {
+      background: #efefef;
+    }
+  }
+
+  &__item {
+    &-name {
+      display: block;
+      float: left;
+      padding: 8px 0 8px 28px;
+    }
+  }
+
+  &__properties {
+    float: right;
+
+    &-item {
+      border-left: 2px solid #aeaeae;
+      float: left;
+      list-style: none;
+      padding: 8px;
+
+      &::after {
+        content: '';
+        clear: both;
+        display: block;
+      }
+
+      &::last-child {
+        border-left: 0;
+      }
+    }
+  }
+
+  &__dropdown {
+    background: #dedede;
+    clear: both;
+    padding: 14px 28px;
+  }
+}
