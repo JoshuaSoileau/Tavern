@@ -1362,7 +1362,7 @@ p {
   .header .header-content {
     margin: 0 auto;
     max-width: 900px;
-    padding: 24px 48px;
+    padding: 24px 56px 24px 48px;
     position: relative; }
     @media (max-width: 500px) {
       .header .header-content {
@@ -1385,9 +1385,9 @@ p {
     margin: 0;
     padding: 24px 48px;
     position: absolute;
-    right: 0;
+    right: 80px;
     top: 0;
-    transition: padding 350ms ease;
+    transition: padding 350ms ease, right 350ms ease;
     z-index: 20; }
     .menu__control:focus {
       outline: none; }
@@ -1409,6 +1409,7 @@ p {
       .menu__control .ellipse:nth-child(3) {
         transition-delay: 175ms; }
     .menu__control--open {
+      right: 0;
       padding-right: 12px; }
       .menu__control--open .ellipse {
         margin-left: 0;
@@ -1525,7 +1526,7 @@ p {
       border: 1px solid black;
       border-right-width: 0;
       border-top-width: 0;
-      content: '';
+      content: "";
       display: inline-block;
       height: 12px;
       margin-right: 6px;
