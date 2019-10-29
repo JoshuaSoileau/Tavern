@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import BreadCrumbs from '../_general/BreadCrumbs';
-import Menu from './Menu';
+import BreadCrumbs from "../_general/BreadCrumbs/BreadCrumbs";
+import Menu from "./Menu";
 
 const Header = () => {
   return (
