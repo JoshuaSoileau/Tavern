@@ -6,11 +6,12 @@
     border: none;
     cursor: pointer;
     margin: 0;
-    padding: $base-margin*2 $base-margin*4;
+    padding: $base-margin * 2 $base-margin * 4;
     position: absolute;
-    right: 0;
+    right: 80px;
     top: 0;
-    transition: padding $transition-duration ease;
+    transition: padding $transition-duration ease,
+      right $transition-duration ease;
     z-index: 20;
 
     &:focus {
@@ -19,7 +20,7 @@
 
     &:hover .ellipse {
       margin-left: 0;
-      width: $menu-dot-width*5;
+      width: $menu-dot-width * 5;
     }
 
     .ellipse {
@@ -27,16 +28,23 @@
       background: $c-text;
       border-radius: $menu-dot-width;
       height: $menu-dot-width;
-      margin: 0 0 $menu-dot-width/2 $menu-dot-width*4;
+      margin: 0 0 $menu-dot-width/2 $menu-dot-width * 4;
       transition: all $transition-duration ease;
       width: $menu-dot-width;
 
-      &:nth-child(1) {    transition-delay: 0; }
-      &:nth-child(2) {    transition-delay: $transition-duration / 4; }
-      &:nth-child(3) {    transition-delay: $transition-duration / 2; }
+      &:nth-child(1) {
+        transition-delay: 0;
+      }
+      &:nth-child(2) {
+        transition-delay: $transition-duration / 4;
+      }
+      &:nth-child(3) {
+        transition-delay: $transition-duration / 2;
+      }
     }
 
     &--open {
+      right: 0;
       padding-right: 12px;
 
       .ellipse {
@@ -47,16 +55,16 @@
         &:nth-child(3) {
           transform: rotate(45deg) translateY(8px);
           transition-delay: 0;
-          width: $menu-dot-width*8;
+          width: $menu-dot-width * 8;
         }
 
         &:nth-child(3) {
-          transform: rotate(-45deg)  translateY(-8px);
+          transform: rotate(-45deg) translateY(-8px);
         }
 
         &:nth-child(2) {
           transition-delay: 0;
-          margin-left: $menu-dot-width*2;
+          margin-left: $menu-dot-width * 2;
           width: $menu-dot-width;
         }
       }
@@ -67,7 +75,7 @@
     font-size: 1em;
     margin-bottom: $base-margin;
 
-    @include bp($small)  {
+    @include bp($small) {
       font-size: 0.9em;
     }
 
@@ -94,7 +102,7 @@
   box-shadow: -50vw 0 0 rgba(0, 0, 0, 0.2);
   background: white;
   opacity: 0;
-  padding: $base-margin*4 $base-margin*3;
+  padding: $base-margin * 4 $base-margin * 3;
   pointer-events: none;
   position: fixed;
   right: 0;
@@ -109,14 +117,16 @@
     transition: all $transition-duration ease;
 
     @for $i from 1 through 20 {
-      &:nth-child(#{$i}) {    transition-delay: $fade-delay + ($fade-delay/2) * ($i + 1); }
+      &:nth-child(#{$i}) {
+        transition-delay: $fade-delay + ($fade-delay/2) * ($i + 1);
+      }
     }
 
     @for $i from 0 through 10 {
       &--lvl-#{$i} {
         margin-left: $base-margin * 2 * ($i);
 
-        @include bp($small)  {
+        @include bp($small) {
           // margin-left: $base-margin * 1 * ($i);
         }
       }
@@ -126,7 +136,7 @@
       border: 1px solid black;
       border-right-width: 0;
       border-top-width: 0;
-      content: '';
+      content: "";
       display: inline-block;
       height: $base-margin;
       margin-right: $base-margin/2;
@@ -134,7 +144,7 @@
       width: $base-margin;
       vertical-align: top;
 
-      @include bp($small)  {
+      @include bp($small) {
         margin-top: 4px;
         height: $base-margin/2;
         width: $base-margin/2;
@@ -144,7 +154,7 @@
     &--lvl-0 {
       padding-left: $base-margin + $base-margin/2;
 
-      @include bp($small)  {
+      @include bp($small) {
         padding-left: $base-margin;
       }
 
