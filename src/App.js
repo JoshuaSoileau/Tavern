@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * Dependencies
  */
@@ -27,11 +28,11 @@ window.actions = actions;
 
 store.dispatch(actions.setWorld(Models.generate()));
 
-const mapStateToProps = state => ({
-  world: state.world
+const mapStateToProps = (state) => ({
+  world: state.world,
 });
 
-const App = props => (
+const App = (props) => (
   <main className="App">
     <a
       href="https://github.com/JoshuaSoileau/Tavern"
@@ -48,7 +49,7 @@ const App = props => (
           position: "absolute",
           top: 0,
           border: 0,
-          right: 0
+          right: 0,
         }}
         ariaHidden="true"
       >
@@ -74,7 +75,7 @@ const App = props => (
         classNames="page"
         timeout={{
           enter: 350,
-          exit: 175
+          exit: 175,
         }}
       >
         <TownRoute {...props} />

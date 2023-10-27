@@ -1,4 +1,9 @@
-import { SET_WORLD, SET_ALCHEMIST, SET_TAVERN, SET_TOWN } from '../actions/types';
+import {
+  SET_WORLD,
+  SET_ALCHEMIST,
+  SET_TAVERN,
+  SET_TOWN,
+} from "../actions/types";
 
 const world = (state = {}, action) => {
   let newState = null;
@@ -14,7 +19,7 @@ const world = (state = {}, action) => {
 
       return newState;
     case SET_TAVERN:
-    if (!state.world) return state;
+      if (!state.world) return state;
 
       newState = { ...state };
       newState.world.tavern = action.data;

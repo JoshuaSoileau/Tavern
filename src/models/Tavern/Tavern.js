@@ -1,9 +1,8 @@
-import data from './Tavern.json';
+import data from "./Tavern.json";
 
 const Tavern = (() => {
-
   const name = () => {
-    return 'The ' + data.adjective.random() + ' ' + data.noun.random();
+    return "The " + data.adjective.random() + " " + data.noun.random();
   };
 
   const entrance = () => {
@@ -28,7 +27,7 @@ const Tavern = (() => {
   };
 
   return {
-    generate
+    generate,
   };
 })();
 

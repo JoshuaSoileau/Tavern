@@ -1,9 +1,8 @@
-import data from './Road.json';
+import data from "./Road.json";
 
 const Road = (() => {
-
   const getName = () => {
-    return data.adjective.random() + ' ' + data.noun.random();
+    return data.adjective.random() + " " + data.noun.random();
   };
 
   const generate = () => {
@@ -12,12 +11,12 @@ const Road = (() => {
 
     return {
       name,
-      description
+      description,
     };
   };
 
   return {
-    generate
+    generate,
   };
 })();
 

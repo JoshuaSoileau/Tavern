@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class InventoryRow extends Component {
-
   constructor(props) {
     super(props);
 
     this.state = {
-      expanded: false
+      expanded: false,
     };
 
     this.toggleDropdown = this.toggleDropdown.bind(this);
   }
 
-  toggleDropdown = function() {
+  toggleDropdown = function () {
     this.setState({
-      expanded: !this.state.expanded
+      expanded: !this.state.expanded,
     });
-  }
+  };
 
   render() {
     const { item, offset } = this.props;
@@ -26,13 +25,16 @@ class InventoryRow extends Component {
 
         <ul className="inventory__properties">
           <li className="inventory__properties-item">{item.price}</li>
-          <li className="inventory__properties-item" onClick={this.toggleDropdown}>...</li>
+          <li
+            className="inventory__properties-item"
+            onClick={this.toggleDropdown}
+          >
+            ...
+          </li>
         </ul>
 
         {this.state.expanded ? (
-          <div className="inventory__dropdown">
-            {item.description}
-          </div>
+          <div className="inventory__dropdown">{item.description}</div>
         ) : null}
       </li>
     );

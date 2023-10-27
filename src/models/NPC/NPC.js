@@ -1,9 +1,8 @@
-import data from './NPC.json';
+import data from "./NPC.json";
 
 const NPC = (() => {
-
   const getName = () => {
-    return data.firstname.random() + ' ' + data.lastname.random();
+    return data.firstname.random() + " " + data.lastname.random();
   };
 
   const getGender = () => {
@@ -12,27 +11,27 @@ const NPC = (() => {
 
   const generate = () => {
     const name = getName();
-    const firstname = name.split(' ')[0];
-    const lastname = name.split(' ')[1];
+    const firstname = name.split(" ")[0];
+    const lastname = name.split(" ")[1];
 
     const gender = getGender();
 
     const pronouns = {
-      'male': {
-        heshe: 'he',
-        hishers: 'his',
-        himher: 'him',
-        manwoman: 'man',
-        mrmrs: 'Mr.',
-        malefemale: 'male',
+      male: {
+        heshe: "he",
+        hishers: "his",
+        himher: "him",
+        manwoman: "man",
+        mrmrs: "Mr.",
+        malefemale: "male",
       },
-      'female': {
-        heshe: 'she',
-        hishers: 'hers',
-        himher: 'her',
-        manwoman: 'woman',
-        mrmrs: 'Mrs.',
-        malefemale: 'female',
+      female: {
+        heshe: "she",
+        hishers: "hers",
+        himher: "her",
+        manwoman: "woman",
+        mrmrs: "Mrs.",
+        malefemale: "female",
       },
     }[gender];
 
@@ -47,7 +46,7 @@ const NPC = (() => {
   };
 
   return {
-    generate
+    generate,
   };
 })();
 

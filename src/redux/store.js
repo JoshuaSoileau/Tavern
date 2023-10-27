@@ -1,12 +1,13 @@
-import { createStore } from 'redux';
-import reducers from './reducers';
+/* eslint-disable no-undef */
+import { createStore } from "redux";
+import reducers from "./reducers";
 
 const defaultState = {
   world: {
     town: null,
     tavern: null,
     alchemist: null,
-  }
+  },
 };
 
 const store = createStore(
