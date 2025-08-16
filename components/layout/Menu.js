@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import icons from "../../icons";
+import icons from "@/icons";
 
 const IconTavern = icons.beer.random();
 const IconTown = icons.castle.random();

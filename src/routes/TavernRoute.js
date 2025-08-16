@@ -1,45 +1,20 @@
-import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
-import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
+"use client";
+import React from "react";
+import Link from "next/link";
+import { useWorld } from "../../app/providers";
+import TavernCard from "@/components/cards/TavernCard";
+import NpcCard from "@/components/cards/NpcCard";
 
-import TavernCard from "../components/cards/TavernCard";
-import NpcCard from "../components/cards/NpcCard";
-
-class TavernRoute extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <BreadcrumbsItem to="/tavern">
-          <span className="title">Tavern</span>
-        </BreadcrumbsItem>
-
-        <Switch location={this.props.location}>
-          <Route
-            exact
-            path={this.props.match.path}
-            render={(props) => <TavernCard {...props} {...this.props} />}
-          />
-
-          <Route
-            path={`${this.props.match.path}/owner`}
-            render={(props) => (
-              <React.Fragment>
-                <BreadcrumbsItem to={`${this.props.match.path}/owner`}>
-                  <span className="title">Owner</span>
-                </BreadcrumbsItem>
-                <NpcCard
-                  {...props}
-                  {...this.props.owner}
-                  route={`${this.props.match.path}/owner`}
-                  owns={this.props.business.name}
-                />
-              </React.Fragment>
-            )}
-          />
-        </Switch>
-      </React.Fragment>
-    );
-  }
+export default function TavernRoute() {
+  const { world } = useWorld();
+  if (!world?.tavern) return null;
+  const { tavern } = world;
+  return (
+    <>
+      <TavernCard {...tavern} />
+      <nav style={{ marginTop: 16 }}>
+        <Link href="/tavern/owner">Owner</Link>
+      </nav>
+    </>
+  );
 }
-
-export default TavernRoute;

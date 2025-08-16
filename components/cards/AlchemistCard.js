@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Inventory from "../_general/Inventory";
 
-import icons from "../../icons";
+import icons from "@/icons";
 
 const IconAlchemist = icons.cauldron.random();
 
