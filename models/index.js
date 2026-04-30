@@ -1,4 +1,5 @@
 /* eslint-disable no-undef */
+import "../src/utils/_array-random";
 import NPC from "./NPC/NPC";
 import Town from "./Town/Town";
 import Alchemist from "./Alchemist/Alchemist";
@@ -6,7 +7,9 @@ import Tavern from "./Tavern/Tavern";
 
 import Items from "./Items";
 
-window.Items = Items;
+if (typeof window !== "undefined") {
+  window.Items = Items;
+}
 
 export default (() => {
   const generate = () => {

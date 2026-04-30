@@ -30,7 +30,7 @@ export default function Breadcrumbs({ labelize, hideRoot = false }: BreadcrumbsP
   const crumbs = parts.map((seg, idx) => {
     const href = '/' + parts.slice(0, idx + 1).filter(Boolean).join('/');
     const isLast = idx === parts.length - 1;
-    const label = (labelize || ((s: string, p: string) => LABEL_OVERRIDES[s] ?? defaultLabelize(s || '')))(seg, href || '/');
+    const label = (labelize || ((s: string) => LABEL_OVERRIDES[s] ?? defaultLabelize(s || '')))(seg, href || '/');
 
     return { href: href || '/', label, isLast };
   });

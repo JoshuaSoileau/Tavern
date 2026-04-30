@@ -1,6 +1,6 @@
 import React from "react";
 
-import BreadCrumbs from "../_general/BreadCrumbs/BreadCrumbs";
+import BreadCrumbs from "@/app/_components/Breadcrumbs";
 import Menu from "./Menu";
 
 const Header = () => {

@@ -38,7 +38,7 @@
         display: block;
       }
 
-      &::last-child {
+      &:last-child {
         border-left: 0;
       }
     }

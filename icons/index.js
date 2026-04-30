@@ -1,3 +1,4 @@
+import "../src/utils/_array-random";
 import iconBeer from "./icon--beer";
 import iconCastle from "./icon--castle";
 import iconCastle2 from "./icon--castle-2";

@@ -18,7 +18,6 @@ const isInStock = (item) => {
 
 const inventory = [
   ...(() => {
-    console.log(items);
     const remainingItems = items.potions.items.filter((item) =>
       isInStock(item)
     );

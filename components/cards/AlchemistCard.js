@@ -1,6 +1,5 @@
-/* eslint-disable no-undef */
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import Inventory from "../_general/Inventory";
 
 import icons from "@/icons";
@@ -10,7 +9,6 @@ const IconAlchemist = icons.cauldron.random();
 class TavernCard extends Component {
   render() {
     const { business } = this.props;
-    console.log(business.inventory);
 
     return (
       <div className="card">
@@ -21,7 +19,7 @@ class TavernCard extends Component {
         <p className="delay--5">{business.cleanliness}</p>
         <p className="delay--6">
           The owner,{" "}
-          <Link to={`${this.props.match.url}/owner`}>
+          <Link href="/alchemist/owner">
             {this.props.owner.name}
           </Link>
           , is behind the counter brewing in a bubbling cauldron.

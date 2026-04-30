@@ -1,6 +1,5 @@
-/* eslint-disable no-undef */
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 import icons from "@/icons";
 
@@ -10,7 +9,6 @@ const IconAlchemist = icons.cauldron.random();
 
 class TownCard extends Component {
   render() {
-    console.log(this.props);
     return (
       <div className="card">
         {/* {icons.castle.random()} */}
@@ -30,7 +28,7 @@ class TownCard extends Component {
             <span className="card__location-description">
               You can see on the left of {this.props.town.primaryRoad.name} a{" "}
               <strong>tavern</strong>, with a sign inscribed with{" "}
-              <Link to={`/tavern`}>{this.props.tavern.business.name}</Link>.
+              <Link href="/tavern">{this.props.tavern.business.name}</Link>.
             </span>
           </p>
           <p className="card__location-link delay--8">
@@ -38,7 +36,7 @@ class TownCard extends Component {
             <span className="card__location-description">
               Further down {this.props.town.primaryRoad.name} is an{" "}
               <strong>alchemy lab</strong> named{" "}
-              <Link to={`/alchemist`}>
+              <Link href="/alchemist">
                 {this.props.alchemist.business.name}
               </Link>
               .

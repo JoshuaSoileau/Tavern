@@ -1928,7 +1928,7 @@ p {
   clear: both;
   display: block;
 }
-.inventory__properties-item::last-child {
+.inventory__properties-item:last-child {
   border-left: 0;
 }
 

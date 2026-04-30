@@ -1,12 +1,5 @@
-/* eslint-disable no-undef */
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-
-import icons from "@/icons";
-
-const IconTavern = icons.beer.random();
-const IconTown = icons.castle.random();
-const IconAlchemist = icons.cauldron.random();
+import Link from "next/link";
 
 class Menu extends Component {
   constructor() {
@@ -21,14 +14,12 @@ class Menu extends Component {
   }
 
   handleMenuIconClick() {
-    console.log("menu clicked");
     this.setState({
       open: !this.state.open,
     });
   }
 
   handleNavClick() {
-    console.log("menu item clicked");
     this.setState({
       open: false,
     });
@@ -63,7 +54,7 @@ class Menu extends Component {
               <Link
                 onClick={this.handleNavClick}
                 className="menu__item-link"
-                to="/"
+                href="/"
               >
                 Town
               </Link>
@@ -72,7 +63,7 @@ class Menu extends Component {
               <Link
                 onClick={this.handleNavClick}
                 className="menu__item-link"
-                to="/tavern"
+                href="/tavern"
               >
                 Tavern
               </Link>
@@ -81,7 +72,7 @@ class Menu extends Component {
               <Link
                 onClick={this.handleNavClick}
                 className="menu__item-link"
-                to="/tavern/owner"
+                href="/tavern/owner"
               >
                 Owner
               </Link>
@@ -90,7 +81,7 @@ class Menu extends Component {
               <Link
                 onClick={this.handleNavClick}
                 className="menu__item-link"
-                to="/alchemist"
+                href="/alchemist"
               >
                 Alchemist
               </Link>
@@ -99,7 +90,7 @@ class Menu extends Component {
               <Link
                 onClick={this.handleNavClick}
                 className="menu__item-link"
-                to="/alchemist/owner"
+                href="/alchemist/owner"
               >
                 Owner
               </Link>

@@ -3,11 +3,12 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import Models from '@/models';
 
-type World = any;
+type World = ReturnType<typeof Models.generate>;
+type ClientWindow = Window & { Models?: typeof Models };
 
 type WorldContextValue = {
   world: World | null;
-  setWorld: (w: World) => void;
+  setWorld: React.Dispatch<React.SetStateAction<World | null>>;
   regenerate: () => void;
 };
 
@@ -23,15 +24,15 @@ export default function Providers({ children }: { children: React.ReactNode }) {
   const [world, setWorld] = useState<World | null>(null);
 
   useEffect(() => {
-    const initial = (Models as any).generate?.() ?? null;
+    const initial = Models.generate?.() ?? null;
     setWorld(initial);
     if (process.env.NODE_ENV !== 'production') {
-      (window as any).Models = Models;
+      (window as ClientWindow).Models = Models;
     }
   }, []);
 
   const regenerate = () => {
-    const next = (Models as any).generate?.() ?? null;
+    const next = Models.generate?.() ?? null;
     setWorld(next);
   };
 
