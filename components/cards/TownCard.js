@@ -24,18 +24,36 @@ class TownCard extends Component {
         <div className="card__locations">
           <h5 className="card__locations-title  delay--6">Locations of Note</h5>
           <p className="card__location-link delay--7">
-            <IconTavern className="card__location-icon  icon" />
+            <Link
+              aria-label={this.props.tavern.business.name}
+              className="card__location-icon-link"
+              href="/tavern"
+            >
+              <IconTavern className="card__location-icon icon" />
+            </Link>
             <span className="card__location-description">
               You can see on the left of {this.props.town.primaryRoad.name} a{" "}
-              <strong>tavern</strong>, with a sign inscribed with{" "}
+              <Link className="card__location-type" href="/tavern">
+                <strong>tavern</strong>
+              </Link>
+              , with a sign inscribed with{" "}
               <Link href="/tavern">{this.props.tavern.business.name}</Link>.
             </span>
           </p>
           <p className="card__location-link delay--8">
-            <IconAlchemist className="card__location-icon card__location-icon--cauldron  icon" />
+            <Link
+              aria-label={this.props.alchemist.business.name}
+              className="card__location-icon-link card__location-icon-link--cauldron"
+              href="/alchemist"
+            >
+              <IconAlchemist className="card__location-icon icon" />
+            </Link>
             <span className="card__location-description">
               Further down {this.props.town.primaryRoad.name} is an{" "}
-              <strong>alchemy lab</strong> named{" "}
+              <Link className="card__location-type" href="/alchemist">
+                <strong>alchemy lab</strong>
+              </Link>{" "}
+              named{" "}
               <Link href="/alchemist">
                 {this.props.alchemist.business.name}
               </Link>

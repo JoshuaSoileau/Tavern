@@ -1886,13 +1886,17 @@ p {
 .breadcrumbs .breadcrumb {
   float: left;
   list-style: none;
-  margin: 0 8px 0 0;
+  margin: 0 12px 0 0;
   padding: 0;
 }
-.breadcrumbs .breadcrumb:not(:first-child) .title::before {
-  content: ">";
+.breadcrumbs .breadcrumb__caret {
+  border-right: 2px solid currentColor;
+  border-top: 2px solid currentColor;
   display: inline-block;
-  margin: 0 8px 0 0;
+  height: 7px;
+  margin: 0 12px 1px 0;
+  transform: rotate(45deg);
+  width: 7px;
 }
 
 .inventory__row {
@@ -1970,19 +1974,31 @@ p {
   position: relative;
 }
 .card__location-icon {
+  display: block;
+  width: 100%;
+}
+.card__location-icon-link {
   display: inline-block;
   margin-right: 24px;
-  width: 60px;
   vertical-align: middle;
+  width: 60px;
 }
-.card__location-icon ~ .card__location-description {
+.card__location-icon-link ~ .card__location-description {
   width: calc(100% - 84px);
 }
-.card__location-icon--cauldron {
-  width: 42px;
+.card__location-icon-link--cauldron {
   margin-left: 18px;
+  width: 42px;
+}
+.card__location-type {
+  text-decoration: underline;
 }
 .card__location-description {
   display: inline-block;
   vertical-align: middle;
+}
+
+.proprietor-link {
+  font-weight: 700;
+  text-decoration: underline;
 }

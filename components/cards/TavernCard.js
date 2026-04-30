@@ -17,7 +17,7 @@ class TavernCard extends Component {
         <p className="delay--6">{this.props.business.crowd}</p>
         <p className="delay--9">
           The tavern owner,{" "}
-          <Link href="/tavern/owner">
+          <Link className="proprietor-link" href="/tavern/owner">
             {this.props.owner.name}
           </Link>
           , is near the fire, stoking it with more wood.

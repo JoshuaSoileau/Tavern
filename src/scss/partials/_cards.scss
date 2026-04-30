@@ -36,19 +36,28 @@
     }
 
     &-icon {
+      display: block;
+      width: 100%;
+    }
+
+    &-icon-link {
       display: inline-block;
       margin-right: $base-margin*2;
-      width: $card-location-icon-width;
       vertical-align: middle;
+      width: $card-location-icon-width;
 
       ~ .card__location-description {
         width: calc(100% - #{$card-location-icon-width + $base-margin*2});
       }
 
       &--cauldron {
-        width: $card-location-icon-width * .7;
         margin-left: $card-location-icon-width - $card-location-icon-width * .7;
+        width: $card-location-icon-width * .7;
       }
+    }
+
+    &-type {
+      text-decoration: underline;
     }
 
     &-description {
@@ -58,4 +67,9 @@
 
   }
 
+}
+
+.proprietor-link {
+  font-weight: 700;
+  text-decoration: underline;
 }

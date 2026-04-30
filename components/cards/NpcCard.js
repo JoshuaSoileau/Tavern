@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Inventory from "../_general/Inventory";
 
 class NpcCard extends Component {
   render() {
@@ -20,8 +21,26 @@ class NpcCard extends Component {
             </>
           )}
         </p>
-        <p className="delay--4">{"{ character_description }"}</p>
-        <p className="delay--5">{"{ character_backstory }"}</p>
+        <p className="delay--4">
+          {this.props.firstname} has {this.props.hairType}{" "}
+          {this.props.hairColor} hair and the practiced confidence of someone
+          who knows every corner of the room. Locals know {this.props.himher} as
+          a {this.props.class} first and a proprietor second.
+        </p>
+        <p className="delay--5">
+          Years of odd jobs, passing adventurers, and hard bargains taught{" "}
+          {this.props.firstname} which goods are worth keeping close.{" "}
+          {this.props.heshe[0].toUpperCase() + this.props.heshe.slice(1)} keeps
+          this personal stock separate from the public shelves.
+        </p>
+        {this.props.inventory?.length ? (
+          <>
+            <h5 className="card__locations-title delay--6">
+              Personal Inventory
+            </h5>
+            <Inventory items={this.props.inventory} offset={7} />
+          </>
+        ) : null}
       </div>
     );
   }

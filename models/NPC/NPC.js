@@ -1,4 +1,5 @@
 import data from "./NPC.json";
+import Items from "../Items";
 
 const NPC = (() => {
   const getName = () => {
@@ -9,7 +10,17 @@ const NPC = (() => {
     return data.gender.random();
   };
 
-  const generate = () => {
+  const getInventory = ({ inventory = "general", inventorySize = 4 } = {}) => {
+    const source =
+      {
+        alchemist: Items.potions,
+        tavern: Items.weapons,
+      }[inventory] || Items.all;
+
+    return source.getRandom(inventorySize);
+  };
+
+  const generate = (options = {}) => {
     const name = getName();
     const firstname = name.split(" ")[0];
     const lastname = name.split(" ")[1];
@@ -41,6 +52,9 @@ const NPC = (() => {
       lastname,
       race: data.race.random(),
       class: data.class.random(),
+      hairColor: data.hairColor.random(),
+      hairType: data.hairType.random(),
+      inventory: getInventory(options),
       ...pronouns,
     };
   };

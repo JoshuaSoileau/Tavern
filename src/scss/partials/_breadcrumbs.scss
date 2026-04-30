@@ -21,16 +21,17 @@
   .breadcrumb {
     float: left;
     list-style: none;
-    margin: 0 8px 0 0;
-    // margin-right: 15px;
+    margin: 0 12px 0 0;
     padding: 0;
+  }
 
-    &:not(:first-child) {
-      .title::before {
-        content: '>';
-        display: inline-block;
-        margin: 0 8px 0 0;
-      }
-    }
+  .breadcrumb__caret {
+    border-right: 2px solid currentColor;
+    border-top: 2px solid currentColor;
+    display: inline-block;
+    height: 7px;
+    margin: 0 12px 1px 0;
+    transform: rotate(45deg);
+    width: 7px;
   }
 }

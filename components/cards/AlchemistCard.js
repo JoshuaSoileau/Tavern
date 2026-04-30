@@ -19,7 +19,7 @@ class TavernCard extends Component {
         <p className="delay--5">{business.cleanliness}</p>
         <p className="delay--6">
           The owner,{" "}
-          <Link href="/alchemist/owner">
+          <Link className="proprietor-link" href="/alchemist/owner">
             {this.props.owner.name}
           </Link>
           , is behind the counter brewing in a bubbling cauldron.

@@ -39,6 +39,7 @@ export default function Breadcrumbs({ labelize, hideRoot = false }: BreadcrumbsP
     <ul className="breadcrumbs">
       {crumbs.map(({ href, label, isLast }) => (
         <li key={href || 'root'} className={`breadcrumb ${isLast ? 'last' : ''}`}>
+          {href !== '/' && <span className="breadcrumb__caret" aria-hidden="true" />}
           {isLast ? (
             label
           ) : (

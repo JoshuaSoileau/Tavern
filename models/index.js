@@ -17,11 +17,11 @@ export default (() => {
       town: Town.generate(),
       alchemist: {
         business: Alchemist.generate(),
-        owner: NPC.generate(),
+        owner: NPC.generate({ inventory: "alchemist", inventorySize: 8 }),
       },
       tavern: {
         business: Tavern.generate(),
-        owner: NPC.generate(),
+        owner: NPC.generate({ inventory: "tavern", inventorySize: 4 }),
       },
     };
   };
